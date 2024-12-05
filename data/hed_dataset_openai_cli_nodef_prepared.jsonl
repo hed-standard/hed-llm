@@ -1,0 +1,78 @@
+{"prompt":"baseline (eyes open) ->","completion":" Agent-action,Experiment-participant,Eyes-open,Participant-response\n"}
+{"prompt":"baseline (eyes closed) ->","completion":" Agent-action,Experiment-participant,Eyes-closed,Participant-response\n"}
+{"prompt":"Task 1 rest ->","completion":" Agent-action,Experiment-participant,Participant-response,Rest\n"}
+{"prompt":"onset of the real motion of opening and closing the left fist when target appears on left side of screen ->","completion":" (Close,Hand,(To-left-of,Torso)),(Open,Hand,(To-left-of,Torso)),Agent-action,Experiment-participant,Participant-response\n"}
+{"prompt":"onset of the real motion of opening and closing the right fist when target appears on right side of screen ->","completion":" (Close,Hand,(To-right-of,Torso)),(Open,Hand,(To-right-of,Torso)),Agent-action,Experiment-participant,Participant-response\n"}
+{"prompt":"Task 2 rest ->","completion":" Agent-action,Experiment-participant,Participant-response,Rest\n"}
+{"prompt":"onset of the imagined motion of opening and closing the left fist when target appears on left side of screen ->","completion":" (Close,Hand,(To-left-of,Torso)),(Open,Hand,(To-left-of,Torso)),Agent-action,Experiment-participant,Imagined-action,Participant-response\n"}
+{"prompt":"onset of the imagined motion of opening and closing the right fist when target appears on right side of screen ->","completion":" (Close,Hand,(To-right-of,Torso)),(Open,Hand,(To-right-of,Torso)),Agent-action,Experiment-participant,Imagined-action,Participant-response\n"}
+{"prompt":"Task 3 rest ->","completion":" Agent-action,Experiment-participant,Participant-response,Rest\n"}
+{"prompt":"onset of the real motion of opening and closing both fists when target appears on the top side of screen ->","completion":" ((Open,Hand,(To-left-of,Torso)),(Close,Hand,(To-left-of,Torso))),((Open,Hand,(To-right-of,Torso)),(Close,Hand,(To-right-of,Torso))),Agent-action,Experiment-participant,Participant-response\n"}
+{"prompt":"onset of the real motion of opening and closing both feet when target appears on the bottom side of screen ->","completion":" ((Open,Toes,(To-left-of,Torso)),(Close,Toes,(To-left-of,Torso))),((Open,Toes,(To-right-of,Torso)),(Close,Toes,(To-right-of,Torso))),Agent-action,Experiment-participant,Participant-response\n"}
+{"prompt":"Task 4 rest ->","completion":" Agent-action,Experiment-participant,Participant-response,Rest\n"}
+{"prompt":"onset of the imagined motion of opening and closing both fists when target appears on the top side of screen ->","completion":" ((Open,Hand,(To-left-of,Torso)),(Close,Hand,(To-left-of,Torso))),((Open,Hand,(To-right-of,Torso)),(Close,Hand,(To-right-of,Torso))),Agent-action,Experiment-participant,Imagined-action,Participant-response\n"}
+{"prompt":"onset of the imagined motion of opening and closing both feet when target appears on the bottom side of screen ->","completion":" ((Open,Toes,(To-left-of,Torso)),(Close,Toes,(To-left-of,Torso))),((Open,Toes,(To-right-of,Torso)),(Close,Toes,(To-right-of,Torso))),Agent-action,Experiment-participant,Imagined-action,Participant-response\n"}
+{"prompt":"Participant should focus only on auditory stimuli ->","completion":" (Selective-attention, Auditory-presentation)\n"}
+{"prompt":"Participant should focus only on visual stimuli. ->","completion":" (Selective-attention, Visual-presentation)\n"}
+{"prompt":"An event presentation that should not have been made. ->","completion":" Sensory-presentation, Mishap\n"}
+{"prompt":"Participant presses a button. ->","completion":" Participant-response, (Experiment-participant, (Press, Mouse-button))\n"}
+{"prompt":"Presentation of a dark blue square. ->","completion":" Sensory-presentation, Experimental-stimulus, Visual-presentation, (Square, DarkBlue, (Center-of, Computer-screen))\n"}
+{"prompt":"Auditory and visual presentation of a hear cue. ->","completion":" Sensory-presentation, (Word, Label\/Word-hear), Auditory-presentation, Visual-presentation\n"}
+{"prompt":"Presentation of a 550 Hz tone. ->","completion":" Sensory-presentation, Experimental-stimulus, Auditory-presentation, (Tone, Frequency\/550 Hz)\n"}
+{"prompt":"Presentation of a light blue square. ->","completion":" Sensory-presentation, Experimental-stimulus, Visual-presentation, (Square, LightBlue, (Center-of, Computer-screen))\n"}
+{"prompt":"Auditory and visual presentation of a look cue. ->","completion":" Sensory-presentation, (Word, Label\/Word-look), Auditory-presentation, Visual-presentation\n"}
+{"prompt":"Presentation of a 500 Hz tone. ->","completion":" Sensory-presentation, Experimental-stimulus, Auditory-presentation, (Tone, Frequency\/500 Hz)\n"}
+{"prompt":"Pause the recording of the experiment. ->","completion":" Experiment-control, Pause\n"}
+{"prompt":"Indicates that the stimulus should be attended to. ->","completion":" Attend-to\n"}
+{"prompt":"Indicates that the stimulus should be ignored. ->","completion":" Label\/Ignore\n"}
+{"prompt":"Cue indicating participant should focus on auditory stimuli. ->","completion":" (Cue, Instructional, Focused-attention, Auditory-presentation)\n"}
+{"prompt":"Cue indicating participant should focus on visual stimuli. ->","completion":" (Cue, Instructional, Focused-attention, Visual-presentation)\n"}
+{"prompt":"Stimulus that is a non-target. ->","completion":" Non-target\n"}
+{"prompt":"Stimulus that is designated as the one to be looked for. ->","completion":" Target, Oddball\n"}
+{"prompt":"A target in the attended to modality has been detected. ->","completion":" (Detect, Target)\n"}
+{"prompt":"Experimental condition in which participant only pays attention to auditory stimuli. ->","completion":" (Condition-variable\/Auditory-focus, (Focused-attention, Auditory-presentation))\n"}
+{"prompt":"Experimental condition in which participant only pays attention to visual stimuli. ->","completion":" (Condition-variable\/Visual-focus, (Focused-attention, Visual-presentation))\n"}
+{"prompt":"Experimental condition in which participant shifts attention based on instructions. ->","completion":" (Condition-variable\/Shift-focus, (Switch-attention, Auditory-presentation, Visual-presentation))\n"}
+{"prompt":"target digit (3) shown ->","completion":" (Target,Character\/3),Experimental-stimulus,Sensory-event,Visual-presentation\n"}
+{"prompt":"participant response; correct if following non-target ->","completion":" (Press,Keyboard-key\/Spacebar),Agent-action,Experiment-participant,Participant-response\n"}
+{"prompt":"non-target digit (1, 2, 4, 5, 6, 7, 8, 9) shown ->","completion":" (Non-target,Character),Experimental-stimulus,Sensory-event,Visual-presentation\n"}
+{"prompt":"Scenario is a straight road ->","completion":" (Paved-terrain, Label\/Straight_road)\n"}
+{"prompt":"Vehicle approached within 3 meters of obstacle resulting in near miss. ->","completion":" Sensory-event, Visual-presentation, Near-miss, (Object, (Close-to, Vehicle))\n"}
+{"prompt":"Vehicle collided with an environmental entity. ->","completion":" Sensory-event, Visual-presentation, (Vehicle, (Collide-with, Object))\n"}
+{"prompt":"Lane position cannot be measured. ->","completion":" Data-feature, Label\/LanePositionNotMeasured, (Vehicle, Position, Invalid)\n"}
+{"prompt":"A single police car was in view, and reported, then occluded, then in view again, and reported again. It‚Äôs not clear whether the subject knew it was the same target both times. ->","completion":" (Participant-response, Indeterminate-action)\n"}
+{"prompt":"Participant gives false alarm target response. ->","completion":" (Participant-response, Incorrect-action)\n"}
+{"prompt":"Participant gives valid detection of target.  ->","completion":" (Participant-response, Correct-action)\n"}
+{"prompt":"Participant gives repeated target detection response. ->","completion":" (Participant-response, Repetitive, Inappropriate-action)\n"}
+{"prompt":"Button press allow access. ->","completion":" Agent-action, Participant-response, (Press, Push-button), (Allow, Label\/Area_access)\n"}
+{"prompt":"Button press deny access. ->","completion":" Agent-action, Participant-response, (Press, Push-button), (Deny, Label\/Area_access)\n"}
+{"prompt":"Particpant pushes the left button. ->","completion":" Agent-action, Participant-response, (Press, (Push-button, (Left-side-of)))\n"}
+{"prompt":"Participant pushes the right button ->","completion":" Agent-action, Participant-response, (Press, (Push-button, (Right-side-of)))\n"}
+{"prompt":"Display an image of a cross character on the screen. ->","completion":" Sensory-event, Visual-presentation, (Cross, (Center-of, Computer-screen))\n"}
+{"prompt":"Display an image of a dash character on the screen. ->","completion":" Sensory-event, Visual-presentation, (Dash, (Center-of, Computer-screen))\n"}
+{"prompt":"Display a letter on the screen. ->","completion":" Sensory-event, Visual-presentation, (Character, (Center-of, Computer-screen))\n"}
+{"prompt":"Play a beep sound. ->","completion":" Sensory-event, Auditory-presentation, Beep\n"}
+{"prompt":"Play a buzz sound ->","completion":" Sensory-event, Auditory-presentation, Buzz\n"}
+{"prompt":"This event is part of a bad or incomplete trial. Some of the expected trial events are missing. ->","completion":" (Invalid, Experimental-trial)\n"}
+{"prompt":"Feedback that the last participant response was correct. ->","completion":" (Feedback, Correct-action)\n"}
+{"prompt":"Feedback that the last participant response was incorrect. ->","completion":" (Feedback, Incorrect-action)\n"}
+{"prompt":"Indicates participant should fixate. ->","completion":" (Task, Fixate)\n"}
+{"prompt":"The participant correctly indicated that the probe was not a target. ->","completion":" ((Recall, Non-target), Correct-action)\n"}
+{"prompt":"The participant indicated that the probe was not a target but the probe was a target. ->","completion":" ((Recall, Non-target), Incorrect-action)\n"}
+{"prompt":"The participant presses a button to indicate ready. ->","completion":" (Appropriate-action, Label\/Indicate-ready)\n"}
+{"prompt":"The probe letter was not shown in the trial. ->","completion":" (Cue, Non-target)\n"}
+{"prompt":"The probe letter was a target to be remembered. ->","completion":" (Cue, Target)\n"}
+{"prompt":"Participant correctly indicated that the probe was a target. ->","completion":" ((Recall, Target), Correct-action)\n"}
+{"prompt":"Participant indicated that the probe was a target but the probe was not a target. ->","completion":" ((Recall, Target), Incorrect-action)\n"}
+{"prompt":"This probe letter is not a target. ->","completion":" Non-target\n"}
+{"prompt":"This probe letter is a target. ->","completion":" Target\n"}
+{"prompt":"Cue to indicate that a probe letter is coming. ->","completion":" (Cue, Recall)\n"}
+{"prompt":"Experiment participant presses both keys . ->","completion":" Agent-action, Indeterminate-action, (Press, Keyboard-key)\n"}
+{"prompt":"Response of the subject ->","completion":" Participant-response, (Keyboard-key, Press), Agent-action\n"}
+{"prompt":"Standard at 500 hz for 60 ms ->","completion":" Auditory-presentation, Sensory-event, Pitch\/500Hz, Correct, Non-target, (Not-equal-to, Go-signal), Expected\n"}
+{"prompt":"Ignore - not a real event ->","completion":" Description\/Event Irrelevant for Experiment\n"}
+{"prompt":"Oddball at 1000 hz for 60 ms ->","completion":" Auditory-presentation, Sensory-event, Pitch\/1000Hz, Wrong, Target, Oddball, Expected, Go-signal\n"}
+{"prompt":"White noise for 60 ms ->","completion":" Auditory-presentation, Sensory-event, Correct, Non-target, Signal-noise, Unexpected, (Not-equal-to, Go-signal), Distractor\n"}
+{"prompt":"White noise for 60 ms, followed by response (incorrect distractor) ->","completion":" Auditory-presentation, Sensory-event, Wrong, Non-target, Signal-noise, Unexpected, (Not-equal-to, Go-signal), Distractor, Participant-response\n"}
+{"prompt":"Oddball at 1000 hz for 60 ms, followed by response (correct target) ->","completion":" Auditory-presentation, Sensory-event, Pitch\/1000Hz, Correct, Target, Oddball, Expected, Go-signal, Participant-response\n"}
+{"prompt":"Standard at 500 hz for 60 ms, followed by response (incorrect) ->","completion":" Auditory-presentation, Sensory-event, Pitch\/500Hz, Wrong, Non-target, (Not-equal-to, Go-signal), Participant-response, Expected\n"}

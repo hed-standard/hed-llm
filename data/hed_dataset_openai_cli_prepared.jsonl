@@ -1,0 +1,203 @@
+{"prompt":"baseline (eyes open) ->","completion":" Agent-action,Experiment-participant,Eyes-open,Participant-response\n"}
+{"prompt":"baseline (eyes closed) ->","completion":" Agent-action,Experiment-participant,Eyes-closed,Participant-response\n"}
+{"prompt":"Task 1 rest ->","completion":" Agent-action,Experiment-participant,Participant-response,Rest\n"}
+{"prompt":"onset of the real motion of opening and closing the left fist when target appears on left side of screen ->","completion":" (Close,Hand,(To-left-of,Torso)),(Open,Hand,(To-left-of,Torso)),Agent-action,Experiment-participant,Participant-response\n"}
+{"prompt":"onset of the real motion of opening and closing the right fist when target appears on right side of screen ->","completion":" (Close,Hand,(To-right-of,Torso)),(Open,Hand,(To-right-of,Torso)),Agent-action,Experiment-participant,Participant-response\n"}
+{"prompt":"Task 2 rest ->","completion":" Agent-action,Experiment-participant,Participant-response,Rest\n"}
+{"prompt":"onset of the imagined motion of opening and closing the left fist when target appears on left side of screen ->","completion":" (Close,Hand,(To-left-of,Torso)),(Open,Hand,(To-left-of,Torso)),Agent-action,Experiment-participant,Imagined-action,Participant-response\n"}
+{"prompt":"onset of the imagined motion of opening and closing the right fist when target appears on right side of screen ->","completion":" (Close,Hand,(To-right-of,Torso)),(Open,Hand,(To-right-of,Torso)),Agent-action,Experiment-participant,Imagined-action,Participant-response\n"}
+{"prompt":"Task 3 rest ->","completion":" Agent-action,Experiment-participant,Participant-response,Rest\n"}
+{"prompt":"onset of the real motion of opening and closing both fists when target appears on the top side of screen ->","completion":" ((Open,Hand,(To-left-of,Torso)),(Close,Hand,(To-left-of,Torso))),((Open,Hand,(To-right-of,Torso)),(Close,Hand,(To-right-of,Torso))),Agent-action,Experiment-participant,Participant-response\n"}
+{"prompt":"onset of the real motion of opening and closing both feet when target appears on the bottom side of screen ->","completion":" ((Open,Toes,(To-left-of,Torso)),(Close,Toes,(To-left-of,Torso))),((Open,Toes,(To-right-of,Torso)),(Close,Toes,(To-right-of,Torso))),Agent-action,Experiment-participant,Participant-response\n"}
+{"prompt":"Task 4 rest ->","completion":" Agent-action,Experiment-participant,Participant-response,Rest\n"}
+{"prompt":"onset of the imagined motion of opening and closing both fists when target appears on the top side of screen ->","completion":" ((Open,Hand,(To-left-of,Torso)),(Close,Hand,(To-left-of,Torso))),((Open,Hand,(To-right-of,Torso)),(Close,Hand,(To-right-of,Torso))),Agent-action,Experiment-participant,Imagined-action,Participant-response\n"}
+{"prompt":"onset of the imagined motion of opening and closing both feet when target appears on the bottom side of screen ->","completion":" ((Open,Toes,(To-left-of,Torso)),(Close,Toes,(To-left-of,Torso))),((Open,Toes,(To-right-of,Torso)),(Close,Toes,(To-right-of,Torso))),Agent-action,Experiment-participant,Imagined-action,Participant-response\n"}
+{"prompt":"Participant should focus only on auditory stimuli ->","completion":" (Selective-attention, Auditory-presentation)\n"}
+{"prompt":"Participant should focus only on visual stimuli. ->","completion":" (Selective-attention, Visual-presentation)\n"}
+{"prompt":"An event presentation that should not have been made. ->","completion":" Sensory-presentation, Mishap\n"}
+{"prompt":"Participant presses a button. ->","completion":" Participant-response, (Experiment-participant, (Press, Mouse-button))\n"}
+{"prompt":"Presentation of a dark blue square. ->","completion":" Sensory-presentation, Experimental-stimulus, Visual-presentation, (Square, DarkBlue, (Center-of, Computer-screen))\n"}
+{"prompt":"Auditory and visual presentation of a hear cue. ->","completion":" Sensory-presentation, (Word, Label\/Word-hear), Auditory-presentation, Visual-presentation\n"}
+{"prompt":"Presentation of a 550 Hz tone. ->","completion":" Sensory-presentation, Experimental-stimulus, Auditory-presentation, (Tone, Frequency\/550 Hz)\n"}
+{"prompt":"Presentation of a light blue square. ->","completion":" Sensory-presentation, Experimental-stimulus, Visual-presentation, (Square, LightBlue, (Center-of, Computer-screen))\n"}
+{"prompt":"Auditory and visual presentation of a look cue. ->","completion":" Sensory-presentation, (Word, Label\/Word-look), Auditory-presentation, Visual-presentation\n"}
+{"prompt":"Presentation of a 500 Hz tone. ->","completion":" Sensory-presentation, Experimental-stimulus, Auditory-presentation, (Tone, Frequency\/500 Hz)\n"}
+{"prompt":"Pause the recording of the experiment. ->","completion":" Experiment-control, Pause\n"}
+{"prompt":"Indicates that the stimulus should be attended to. ->","completion":" Attend-to\n"}
+{"prompt":"Indicates that the stimulus should be ignored. ->","completion":" Label\/Ignore\n"}
+{"prompt":"Cue indicating participant should focus on auditory stimuli. ->","completion":" (Cue, Instructional, Focused-attention, Auditory-presentation)\n"}
+{"prompt":"Cue indicating participant should focus on visual stimuli. ->","completion":" (Cue, Instructional, Focused-attention, Visual-presentation)\n"}
+{"prompt":"Stimulus that is a non-target. ->","completion":" Non-target\n"}
+{"prompt":"Stimulus that is designated as the one to be looked for. ->","completion":" Target, Oddball\n"}
+{"prompt":"A target in the attended to modality has been detected. ->","completion":" (Detect, Target)\n"}
+{"prompt":"Experimental condition in which participant only pays attention to auditory stimuli. ->","completion":" (Condition-variable\/Auditory-focus, (Focused-attention, Auditory-presentation))\n"}
+{"prompt":"Experimental condition in which participant only pays attention to visual stimuli. ->","completion":" (Condition-variable\/Visual-focus, (Focused-attention, Visual-presentation))\n"}
+{"prompt":"Experimental condition in which participant shifts attention based on instructions. ->","completion":" (Condition-variable\/Shift-focus, (Switch-attention, Auditory-presentation, Visual-presentation))\n"}
+{"prompt":"target digit (3) shown ->","completion":" (Target,Character\/3),Experimental-stimulus,Sensory-event,Visual-presentation\n"}
+{"prompt":"participant response; correct if following non-target ->","completion":" (Press,Keyboard-key\/Spacebar),Agent-action,Experiment-participant,Participant-response\n"}
+{"prompt":"non-target digit (1, 2, 4, 5, 6, 7, 8, 9) shown ->","completion":" (Non-target,Character),Experimental-stimulus,Sensory-event,Visual-presentation\n"}
+{"prompt":"Start of left perturbation ->","completion":" (Def\/Left-perturb, Onset)\n"}
+{"prompt":"End of left perturbation ->","completion":" (Def\/Left-perturb, Offset)\n"}
+{"prompt":"Start of right perturbation ->","completion":" (Def\/Right-perturb, Onset)\n"}
+{"prompt":"End of right perturbation ->","completion":" (Def\/Right-perturb, Offset)\n"}
+{"prompt":"Start of a left perturbation cued by a sound. ->","completion":" (Def\/Left-perturb, Onset), Def\/Cue-sound\n"}
+{"prompt":"End of a left perturbation cued by a sound. ->","completion":" (Def\/Left-perturb, Offset)\n"}
+{"prompt":"Start of a right perturbation cued by a sound. ->","completion":" (Def\/Right-perturb, Onset), Def\/Cue-sound\n"}
+{"prompt":"End of a right perturbation cued by a sound. ->","completion":" (Def\/Right-perturb, Onset)\n"}
+{"prompt":"Start driving car forward. ->","completion":" (Def\/Drive-vehicle, (Forward), Onset)\n"}
+{"prompt":"End driving car forward. ->","completion":" (Def\/Drive-vehicle, Offset)\n"}
+{"prompt":"Beginning of non-cue tone instance. ->","completion":" (Def\/Non-cue-sound, Onset)\n"}
+{"prompt":"Beginning of non-cue tone instance. ->","completion":" (Def\/Non-cue-sound, Offset)\n"}
+{"prompt":"Beginning of a cue tone instance. ->","completion":" (Def\/Cue-sound, Onset)\n"}
+{"prompt":"End of a cue tone instance. ->","completion":" (Def\/Cue-sound, Offset)\n"}
+{"prompt":"Start showing a 45 MPH sign. ->","completion":" (Def\/Show-speed-sign\/45, Onset)\n"}
+{"prompt":"End showing a 45 MPH sign. ->","completion":" (Def\/Show-speed-sign\/45, Offset)\n"}
+{"prompt":"Start of a trial ->","completion":" (Def\/Trial-marker, Onset)\n"}
+{"prompt":"End of a trial ->","completion":" (Def\/Trial-marker, Offset)\n"}
+{"prompt":"All at high-perturbation rate with low visual complexity. ->","completion":" (Def\/Tile-change,  (Condition-Variable\/High-perturbation-rate, Condition-variable\/Low-visual-complexity, Label\/Tile0), Onset)\n"}
+{"prompt":"Scenario is a straight road ->","completion":" (Paved-terrain, Label\/Straight_road)\n"}
+{"prompt":"Vehicle moves into the defined lane of travel from either the left or right side of the lane ->","completion":" Agent-action, Experiment-participant, (Operate, (Vehicle, (Within, Lane)))\n"}
+{"prompt":"Vehicle moves right of the defined lane of travel ->","completion":" Agent-action, Experiment-participant, (Operate, (Vehicle, (To-right-of, Lane)))\n"}
+{"prompt":"Vehicle moves left of the defined lane of travel ->","completion":" Agent-action, Experiment-participant, (Operate, (Vehicle, (To-left-of, Lane)))\n"}
+{"prompt":"Driver starts correcting lane position. ->","completion":" (Def\/Course-correction, Onset)\n"}
+{"prompt":"Driver has completed the lane position correction. ->","completion":" (Def\/Course-correction, Offset)\n"}
+{"prompt":"Vehicle approached within 3 meters of obstacle resulting in near miss. ->","completion":" Sensory-event, Visual-presentation, Near-miss, (Object, (Close-to, Vehicle))\n"}
+{"prompt":"Course correction has been detected because the vehicle has a heading error of more than 5.1566 degrees from the forward direction or the driver is steering away from the perturbation with a steering angle of more than 4 degrees. ->","completion":" (Definition\/Course-correction, (Agent-action, Experiment-participant, ((Operate, Label\/Drive), (Vehicle, (Towards, Lane)))))\n"}
+{"prompt":"A sound which is meant to signal the start of a perturbation. ->","completion":" (Definition\/Cue-sound, (Sensory-event, Auditory-presentation, Sound, (Cue, (Away-from, (Center-of, Lane)))))\n"}
+{"prompt":"Drive car. ->","completion":" (Definition\/Drive-vehicle, (Agent-action, (Human-agent, Experiment-participant), ((Operate, Label\/Drive), Car)))\n"}
+{"prompt":"A driving scenario with other cars or pedestrians in some configuration. ->","completion":" (Definition\/Driving-scenario\/#, (Label\/#, Environmental-property, Road, Outdoors))\n"}
+{"prompt":"Perturbation that moves the vehicle to the left via perpendicular force. ->","completion":" (Definition\/Left-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Left-side-of, Lane))))\n"}
+{"prompt":"A sound which is not meant to cue the start of a perturbation. ->","completion":" (Definition\/Non-cue-sound, (Sensory-event, Auditory-presentation, Sound, (Distractor, Non-informative, Random)))\n"}
+{"prompt":"Play a sound clip. ->","completion":" (Definition\/Play-sound-clip\/#, (Auditory-presentation, Audio-clip, Label\/#))\n"}
+{"prompt":"Participant presses a button ->","completion":" (Definition\/Press-button, (Agent-action, Participant-response, (Experiment-participant, (Press, Push-button))))\n"}
+{"prompt":"Perturbation that moves the vehicle to the right via perpendicular force. ->","completion":" (Definition\/Right-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Right-side-of, Lane))))\n"}
+{"prompt":"A mph road sign of specified speed. ->","completion":" (Definition\/Show-speed-sign\/#, (Sensory-event, Visual-presentation, ((Navigational-object, Label\/Road-sign), Speed\/# mph)))\n"}
+{"prompt":"Data collection for a trial ->","completion":" (Definition\/Trial-marker, (Experiment-structure, Experimental-trial))\n"}
+{"prompt":"A change of experimental condition with a 2 by 2 design varying visual complexity and perturbation rate. ->","completion":" (Definition\/Tile-change, (Experiment-structure, (Environmental-property, Terrain), (Experimental-stimulus, Temporal-rate)))\n"}
+{"prompt":"Vehicle collided with an environmental entity. ->","completion":" Sensory-event, Visual-presentation, (Vehicle, (Collide-with, Object))\n"}
+{"prompt":"Lane position cannot be measured. ->","completion":" Data-feature, Label\/LanePositionNotMeasured, (Vehicle, Position, Invalid)\n"}
+{"prompt":"Start of an undefined button press. ->","completion":" (Def\/Press-button, (Indeterminate-action), Onset)\n"}
+{"prompt":"End of undefined button press. ->","completion":" (Def\/Press-button, Offset)\n"}
+{"prompt":"Beginning of sound clip relevant to task. ->","completion":" (Def\/Play-sound-clip\/TaskRelated, (Related-to, Task), Onset)\n"}
+{"prompt":"End of a sound clip relevant to task. ->","completion":" (Def\/Play-sound-clip\/TaskRelated, Offset)\n"}
+{"prompt":"Beginning of a sound clip unrelated to task. ->","completion":" (Def\/Play-sound-clip\/TaskUnrelated, Onset)\n"}
+{"prompt":"End of a sound clip unrelated to task. ->","completion":" (Def\/Play-sound-clip\/TaskUnrelated, Offset)\n"}
+{"prompt":"Beginning of sound clip on mindfulness breath counting exercise. ->","completion":" (Def\/Play-sound-clip\/MindfulnessClip, (Instructional, (Related-to, Rest)), Onset)\n"}
+{"prompt":"End of sound clip on mindfulness breath counting exercise. ->","completion":" (Def\/Play-sound-clip\/MindfulnessClip,  Offset)\n"}
+{"prompt":"Start oncoming traffic with up to 12 vehicles driving south. ->","completion":" (Def\/Driving-scenario\/OncomingVehiclesPassing, ((Car, (Less-than, Item-count\/13)), (Move, Towards, (Leftward, Lane))), Onset)\n"}
+{"prompt":"End oncoming traffic with up to 12 vehicles driving south. ->","completion":" (Def\/Driving-scenario\/OncomingVehiclesPassing, Offset)\n"}
+{"prompt":"Start vehicle being overtaken from front with up to 3 vehicles that appear in front driving north in lefthand of northbound lanes. ->","completion":" (Def\/Driving-scenario\/CarsInFront, ((Car, (Less-than, Item-count\/4)), In-front-of), Onset)\n"}
+{"prompt":"End vehicle being overtaken from front with up to 3 vehicles that appear in front driving north in lefthand of northbound lanes. ->","completion":" (Def\/Driving-scenario\/CarsInFront, Offset)\n"}
+{"prompt":"Start vehicle being overtaken from behind with up to 2 vehicles that appear behind the subject and drive past. ->","completion":" (Def\/Driving-scenario\/CarsOvertakingFromBehind, ((Car, Item-count\/2, Behind), (Move, In-front-of)), Onset)\n"}
+{"prompt":"End vehicle being overtaken from behind with up to 2 vehicles that appear behind the subject and drive past. ->","completion":" (Def\/Driving-scenario\/CarsOvertakingFromBehind, Offset)\n"}
+{"prompt":"Start showing a 35 MPH sign. ->","completion":" (Def\/Show-speed-sign\/35, Onset)\n"}
+{"prompt":"End showing a 35 MPH sign. ->","completion":" (Def\/Show-speed-sign\/35, Offset)\n"}
+{"prompt":"Start police car in driver line of sight. ->","completion":" (Def\/Driving-scenario\/PoliceCarVisible, (Car, Target, Oddball), Onset)\n"}
+{"prompt":"End police car in driver line of sight. ->","completion":" (Def\/Driving-scenario\/PoliceCarVisible, Offset)\n"}
+{"prompt":"Start of button press to acknowledge a police car. ->","completion":" (Def\/Press-button, (Detect, (Target, Label\/Police-car)), Onset)\n"}
+{"prompt":"End of button press to acknowledge a police car. ->","completion":" (Def\/Press-button, Offset)\n"}
+{"prompt":"A single police car was in view, and reported, then occluded, then in view again, and reported again. It‚Äôs not clear whether the subject knew it was the same target both times. ->","completion":" (Participant-response, Indeterminate-action)\n"}
+{"prompt":"Participant gives false alarm target response. ->","completion":" (Participant-response, Incorrect-action)\n"}
+{"prompt":"Participant gives valid detection of target.  ->","completion":" (Participant-response, Correct-action)\n"}
+{"prompt":"Participant gives repeated target detection response. ->","completion":" (Participant-response, Repetitive, Inappropriate-action)\n"}
+{"prompt":"Start showing a 25 MPH sign. ->","completion":" (Def\/Show-speed-sign\/25, Onset)\n"}
+{"prompt":"End showing a 25 MPH sign. ->","completion":" (Def\/Show-speed-sign\/25, Offset)\n"}
+{"prompt":"The Arduino data collection system starts failing. ->","completion":" (Def\/System-failure\/Arduino, Onset)\n"}
+{"prompt":"The Arduino data collection system enda failing. ->","completion":" (Def\/System-failure\/Arduino, Offset)\n"}
+{"prompt":"The EEG data collection system starts failing. ->","completion":" (Def\/System-failure\/EEG, Onset)\n"}
+{"prompt":"The EEG data collection system ends failing. ->","completion":" (Def\/System-failure\/EEG, Offset)\n"}
+{"prompt":"The eye tracking system starts failing. ->","completion":" (Def\/System-failure\/Eye-tracking, Onset)\n"}
+{"prompt":"The eye tracking system ends failing. ->","completion":" (Def\/System-failure\/Eye-tracking, Offset)\n"}
+{"prompt":"A system failure causes data to be invalid ->","completion":" (Definition\/System-failure\/#, (Experiment-control, Label\/#, Mishap))\n"}
+{"prompt":"Start of basic guard duty scenario. ->","completion":" (Def\/Experiment\/Basic-guard-scenario, Onset)\n"}
+{"prompt":"End of basic guard duty scenario. ->","completion":" (Def\/Experiment\/Basic-guard-scenario, Offset)\n"}
+{"prompt":"Start block of images from Area C. ->","completion":" (Def\/Environmental-area\/Area-C Onset)\n"}
+{"prompt":"Stop block of images from Area C. ->","completion":" (Def\/Environmental-area\/Area-C, Offset)\n"}
+{"prompt":"Start showing of a valid image ->","completion":" (Def\/Show-image, (Valid), Onset)\n"}
+{"prompt":"End showing of a valid image ->","completion":" (Def\/Show-image, Offset)\n"}
+{"prompt":"Start showing image incorrect access level. ->","completion":" (Def\/Show-image, (Invalid, Label\/No_access_to_level), Onset)\n"}
+{"prompt":"End showing image incorrect access level. ->","completion":" (Def\/Show-image, Offset)\n"}
+{"prompt":"Start showing image of expired ID ->","completion":" (Def\/Show-image, (Invalid, Label\/Expired_ID), Onset)\n"}
+{"prompt":"End showing image of expired ID. ->","completion":" (Def\/Show-image, Offset)\n"}
+{"prompt":"Start showing image with photo ID mismatch. ->","completion":" (Def\/Show-image, (Invalid, Label\/Photo_mismatch), Onset)\n"}
+{"prompt":"End showing image with photo ID mismatch. ->","completion":" (Def\/Show-image, Offset)\n"}
+{"prompt":"Start showing image with suspicious DOB. ->","completion":" (Def\/Show-image, (Invalid, Label\/Suspicious_DOB), Onset)\n"}
+{"prompt":"End showing image with suspicious DOB. ->","completion":" (Def\/Show-image, Offset)\n"}
+{"prompt":"Start showing image with no watermark. ->","completion":" (Def\/Show-image, (Invalid, Label\/No_watermark), Onset)\n"}
+{"prompt":"End showing image with no watermark. ->","completion":" (Def\/Show-image, Offset)\n"}
+{"prompt":"Button press allow access. ->","completion":" Agent-action, Participant-response, (Press, Push-button), (Allow, Label\/Area_access)\n"}
+{"prompt":"Button press deny access. ->","completion":" Agent-action, Participant-response, (Press, Push-button), (Deny, Label\/Area_access)\n"}
+{"prompt":"Start taking survey ->","completion":" (Def\/Take-survey, Onset)\n"}
+{"prompt":"End taking survey. ->","completion":" (Def\/Take-survey, Offset)\n"}
+{"prompt":"Start of EEG system failure. ->","completion":" (Def\/System-failure\/EEG, Onset)\n"}
+{"prompt":"End of EEG system failure. ->","completion":" (Def\/System-failure\/EEG, Offset)\n"}
+{"prompt":"Start of eye tracking system failure. ->","completion":" (Def\/System-failure\/Eye-tracking, Onset)\n"}
+{"prompt":"End of eye tracking system failure. ->","completion":" (Def\/System-failure\/Eye-tracking, Offset)\n"}
+{"prompt":"Experiment  ->","completion":" (Definition\/Experiment\/#,  (Experiment-structure, Task, Label\/#))\n"}
+{"prompt":"Checks should be for authorization to a specified area. ->","completion":" (Definition\/Environmental-area\/#, (Experiment-structure,  Condition-variable\/Environmental-area-cond, Label\/#, Time-block))\n"}
+{"prompt":"Show an ID image. ->","completion":" (Definition\/Show-image, (Sensory-event, Visual-presentation, (Image, Label\/ID-badge)))\n"}
+{"prompt":"Participant takes a survey ->","completion":" (Definition\/Take-survey, (Agent-action, (Experiment-participant, (Perform, (Label\/Take-survey, Touchscreen)))))\n"}
+{"prompt":"Particpant pushes the left button. ->","completion":" Agent-action, Participant-response, (Press, (Push-button, (Left-side-of)))\n"}
+{"prompt":"Participant pushes the right button ->","completion":" Agent-action, Participant-response, (Press, (Push-button, (Right-side-of)))\n"}
+{"prompt":"Display an image of a cross character on the screen. ->","completion":" Sensory-event, Visual-presentation, (Cross, (Center-of, Computer-screen))\n"}
+{"prompt":"Display an image of a dash character on the screen. ->","completion":" Sensory-event, Visual-presentation, (Dash, (Center-of, Computer-screen))\n"}
+{"prompt":"Display a letter on the screen. ->","completion":" Sensory-event, Visual-presentation, (Character, (Center-of, Computer-screen))\n"}
+{"prompt":"Play a beep sound. ->","completion":" Sensory-event, Auditory-presentation, Beep\n"}
+{"prompt":"Play a buzz sound ->","completion":" Sensory-event, Auditory-presentation, Buzz\n"}
+{"prompt":"This event is part of a bad or incomplete trial. Some of the expected trial events are missing. ->","completion":" (Invalid, Experimental-trial)\n"}
+{"prompt":"Feedback that the last participant response was correct. ->","completion":" (Feedback, Correct-action)\n"}
+{"prompt":"Feedback that the last participant response was incorrect. ->","completion":" (Feedback, Incorrect-action)\n"}
+{"prompt":"Indicates participant should fixate. ->","completion":" (Task, Fixate)\n"}
+{"prompt":"The participant correctly indicated that the probe was not a target. ->","completion":" ((Recall, Non-target), Correct-action)\n"}
+{"prompt":"The participant indicated that the probe was not a target but the probe was a target. ->","completion":" ((Recall, Non-target), Incorrect-action)\n"}
+{"prompt":"The participant presses a button to indicate ready. ->","completion":" (Appropriate-action, Label\/Indicate-ready)\n"}
+{"prompt":"The probe letter was not shown in the trial. ->","completion":" (Cue, Non-target)\n"}
+{"prompt":"The probe letter was a target to be remembered. ->","completion":" (Cue, Target)\n"}
+{"prompt":"Participant correctly indicated that the probe was a target. ->","completion":" ((Recall, Target), Correct-action)\n"}
+{"prompt":"Participant indicated that the probe was a target but the probe was not a target. ->","completion":" ((Recall, Target), Incorrect-action)\n"}
+{"prompt":"This probe letter is not a target. ->","completion":" Non-target\n"}
+{"prompt":"This probe letter is a target. ->","completion":" Target\n"}
+{"prompt":"Cue to indicate that a probe letter is coming. ->","completion":" (Cue, Recall)\n"}
+{"prompt":"Start pedestrians oncoming on the opposite side of road. Up to 4 pedestrians walk north to south along the west side of the road. ->","completion":" (Def\/Driving-scenario\/OncomingPedestriansOnFarSide, (((Human-agent, Walk), (Less-than, Item-count\/5)), (Move, Towards, (Left-side-of, Road))), Onset)\n"}
+{"prompt":"End  pedestrians oncoming on the opposite side of road. Up to 4 pedestrians walk north to south along the west side of the road. ->","completion":" (Def\/Driving-scenario\/OncomingPedestriansOnFarSide, Offset)\n"}
+{"prompt":"Start pedestrians passing on same side of road. Up to 4 pedestrians walk north to south along the east side of the road. ->","completion":" (Def\/Driving-scenario\/OncomingPedestriansOnNearSide, (((Human-agent, Walk), (Less-than, Item-count\/5)), (Move, Towards, (Right-side-of, Road))), Onset)\n"}
+{"prompt":"Start pedestrians passing on same side of road. Up to 4 pedestrians walk north to south along the east side of the road. ->","completion":" (Def\/Driving-scenario\/OncomingPedestriansOnNearSide, Offset)\n"}
+{"prompt":"Start  construction zone. 24 barrels and cones blocking the lefthand of the northbound lanes. Always visible do not pop up. ->","completion":" (Def\/Driving-scenario\/ConstructionZone, ((Navigational-object, Label\/Lane-Blocking-object, Item-count\/24)), Onset)\n"}
+{"prompt":"End  construction zone. 24 barrels and cones blocking the lefthand of the northbound lanes. Always visible do not pop up. ->","completion":" (Def\/Driving-scenario\/ConstructionZone, Offset)\n"}
+{"prompt":"Tile complexity 1 high perturbation rate and high visual complexity. ->","completion":" (Def\/Tile-change,  (Condition-Variable\/High-perturbation-rate, Condition-variable\/High-visual-complexity, Label\/Tile1), Onset)\n"}
+{"prompt":"Tile complexity 2 high perturbation rate and low visual complexity. ->","completion":" (Def\/Tile-change,  (Condition-Variable\/High-perturbation-rate, Condition-variable\/Low-visual-complexity, Label\/Tile2), Onset)\n"}
+{"prompt":"Tile complexity 3 low perturbation rate and high visual complexity. ->","completion":" (Def\/Tile-change,  (Condition-Variable\/High-perturbation-rate, Condition-variable\/Low-visual-complexity, Label\/Tile3), Onset)\n"}
+{"prompt":"Tile complexity 4 low perturbation rate and high low complexity. ->","completion":" (Def\/Tile-change,  (Condition-Variable\/Low-perturbation-rate, Condition-variable\/High-visual-complexity, Label\/Tile4), Onset)\n"}
+{"prompt":"Display a face to mark end of pre-stimulus and start of blink-inhibition. ->","completion":" Sensory-event, Experimental-stimulus, (Def\/Face-image, Onset), (Def\/Blink-inhibition-task,Onset),(Def\/Cross-only, Offset)\n"}
+{"prompt":"Display a face at the beginning of the recording. ->","completion":" Sensory-event, Experimental-stimulus, (Def\/Face-image, Onset), (Def\/Blink-inhibition-task,Onset), (Def\/Fixation-task, Onset)\n"}
+{"prompt":"Display a white circle to mark end of the stimulus and blink inhibition. ->","completion":" Sensory-event, (Intended-effect, Cue), (Def\/Circle-only, Onset), (Def\/Face-image, Offset), (Def\/Blink-inhibition-task, Offset), (Def\/Fixation-task, Offset)\n"}
+{"prompt":"Display only a white cross to mark start of trial and fixation. ->","completion":" Sensory-event, (Intended-effect, Cue), (Def\/Cross-only, Onset), (Def\/Fixation-task, Onset),  (Def\/Circle-only, Offset)\n"}
+{"prompt":"Experiment participant presses a key with left index finger. ->","completion":" Agent-action, Participant-response, Def\/Press-left-finger\n"}
+{"prompt":"Experiment participant presses a key with right index finger. ->","completion":" Agent-action, Participant-response, Def\/Press-right-finger\n"}
+{"prompt":"Setup for experiment with pressing key with left index finger means a face with above average symmetry. ->","completion":" Experiment-structure, (Def\/Left-sym-cond, Onset), (Def\/Initialize-recording, Onset)\n"}
+{"prompt":"Setup for experiment with pressing key with right index finger means a face with above average symmetry. ->","completion":" Experiment-structure, (Def\/Right-sym-cond, Onset), (Def\/Initialize-recording, Onset)\n"}
+{"prompt":"Experiment participant presses both keys . ->","completion":" Agent-action, Indeterminate-action, (Press, Keyboard-key)\n"}
+{"prompt":"A face that should be recognized by the participants. ->","completion":" Def\/Famous-face-cond\n"}
+{"prompt":"A face that should not be recognized by the participants. ->","completion":" Def\/Unfamiliar-face-cond\n"}
+{"prompt":"A scrambled face image generated by taking face 2D FFT. ->","completion":" Def\/Scrambled-face-cond\n"}
+{"prompt":"Factor level indicating the first display of this face. ->","completion":" Def\/First-show-cond\n"}
+{"prompt":"Factor level indicating this face was the same as previous one. ->","completion":" Def\/Immediate-repeat-cond\n"}
+{"prompt":"Factor level indicating face was seen 5 to 15 trials ago. ->","completion":" Def\/Delayed-repeat-cond\n"}
+{"prompt":"Response of the subject ->","completion":" Participant-response, (Keyboard-key, Press), Agent-action\n"}
+{"prompt":"Standard at 500 hz for 60 ms ->","completion":" Auditory-presentation, Sensory-event, Pitch\/500Hz, Correct, Non-target, (Not-equal-to, Go-signal), Expected\n"}
+{"prompt":"Ignore - not a real event ->","completion":" Description\/Event Irrelevant for Experiment\n"}
+{"prompt":"Oddball at 1000 hz for 60 ms ->","completion":" Auditory-presentation, Sensory-event, Pitch\/1000Hz, Wrong, Target, Oddball, Expected, Go-signal\n"}
+{"prompt":"White noise for 60 ms ->","completion":" Auditory-presentation, Sensory-event, Correct, Non-target, Signal-noise, Unexpected, (Not-equal-to, Go-signal), Distractor\n"}
+{"prompt":"White noise for 60 ms, followed by response (incorrect distractor) ->","completion":" Auditory-presentation, Sensory-event, Wrong, Non-target, Signal-noise, Unexpected, (Not-equal-to, Go-signal), Distractor, Participant-response\n"}
+{"prompt":"Oddball at 1000 hz for 60 ms, followed by response (correct target) ->","completion":" Auditory-presentation, Sensory-event, Pitch\/1000Hz, Correct, Target, Oddball, Expected, Go-signal, Participant-response\n"}
+{"prompt":"Standard at 500 hz for 60 ms, followed by response (incorrect) ->","completion":" Auditory-presentation, Sensory-event, Pitch\/500Hz, Wrong, Non-target, (Not-equal-to, Go-signal), Participant-response, Expected\n"}
+{"prompt":"Start advanced guard duty scenario. ->","completion":" (Def\/Experiment\/Advanced-guard-scenario, Onset)\n"}
+{"prompt":"End advanced guard duty scenario. ->","completion":" (Def\/Experiment\/Advanced-guard-scenario, Offset)\n"}
+{"prompt":"Start block of images from Area A. ->","completion":" (Def\/Environmental-area\/Area-A, Onset)\n"}
+{"prompt":"Stop block of images from Area A. ->","completion":" (Def\/Environmental-area\/Area-A, Offset)\n"}
+{"prompt":"Start block of images from Area B. ->","completion":" (Def\/Environmental-area\/Area-B, Onset)\n"}
+{"prompt":"Stop block of images from Area B. ->","completion":" (Def\/Environmental-area\/Area-B, Offset)\n"}
+{"prompt":"Start block of images from Area D. ->","completion":" (Def\/Environmental-area\/Area-D, Onset)\n"}
+{"prompt":"Stop block of images from Area D. ->","completion":" (Def\/Environmental-area\/Area-D, Offset)\n"}
+{"prompt":"Start block of images from Area E. ->","completion":" (Def\/Environmental-area\/Area-E, Onset)\n"}
+{"prompt":"Stop block of images from Area E. ->","completion":" (Def\/Environmental-area\/Area-E, Offset)\n"}

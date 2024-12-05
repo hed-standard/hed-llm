@@ -1,0 +1,387 @@
+,desc,hed,ds,version
+0,baseline (eyes open),"Agent-action,Experiment-participant,Eyes-open,Participant-response",ds004362,8.1.0
+1,baseline (eyes closed),"Agent-action,Experiment-participant,Eyes-closed,Participant-response",ds004362,8.1.0
+2,Task 1 rest ,"Agent-action,Experiment-participant,Participant-response,Rest",ds004362,8.1.0
+3,onset of the real motion of opening and closing the left fist when target appears on left side of screen,"(Close,Hand,(To-left-of,Torso)),(Open,Hand,(To-left-of,Torso)),Agent-action,Experiment-participant,Participant-response",ds004362,8.1.0
+4,onset of the real motion of opening and closing the right fist when target appears on right side of screen,"(Close,Hand,(To-right-of,Torso)),(Open,Hand,(To-right-of,Torso)),Agent-action,Experiment-participant,Participant-response",ds004362,8.1.0
+5,Task 2 rest,"Agent-action,Experiment-participant,Participant-response,Rest",ds004362,8.1.0
+6,onset of the imagined motion of opening and closing the left fist when target appears on left side of screen,"(Close,Hand,(To-left-of,Torso)),(Open,Hand,(To-left-of,Torso)),Agent-action,Experiment-participant,Imagined-action,Participant-response",ds004362,8.1.0
+7,onset of the imagined motion of opening and closing the right fist when target appears on right side of screen,"(Close,Hand,(To-right-of,Torso)),(Open,Hand,(To-right-of,Torso)),Agent-action,Experiment-participant,Imagined-action,Participant-response",ds004362,8.1.0
+8,Task 3 rest,"Agent-action,Experiment-participant,Participant-response,Rest",ds004362,8.1.0
+9,onset of the real motion of opening and closing both fists when target appears on the top side of screen,"((Open,Hand,(To-left-of,Torso)),(Close,Hand,(To-left-of,Torso))),((Open,Hand,(To-right-of,Torso)),(Close,Hand,(To-right-of,Torso))),Agent-action,Experiment-participant,Participant-response",ds004362,8.1.0
+10,onset of the real motion of opening and closing both feet when target appears on the bottom side of screen,"((Open,Toes,(To-left-of,Torso)),(Close,Toes,(To-left-of,Torso))),((Open,Toes,(To-right-of,Torso)),(Close,Toes,(To-right-of,Torso))),Agent-action,Experiment-participant,Participant-response",ds004362,8.1.0
+11,Task 4 rest,"Agent-action,Experiment-participant,Participant-response,Rest",ds004362,8.1.0
+12,onset of the imagined motion of opening and closing both fists when target appears on the top side of screen,"((Open,Hand,(To-left-of,Torso)),(Close,Hand,(To-left-of,Torso))),((Open,Hand,(To-right-of,Torso)),(Close,Hand,(To-right-of,Torso))),Agent-action,Experiment-participant,Imagined-action,Participant-response",ds004362,8.1.0
+13,onset of the imagined motion of opening and closing both feet when target appears on the bottom side of screen,"((Open,Toes,(To-left-of,Torso)),(Close,Toes,(To-left-of,Torso))),((Open,Toes,(To-right-of,Torso)),(Close,Toes,(To-right-of,Torso))),Agent-action,Experiment-participant,Imagined-action,Participant-response",ds004362,8.1.0
+0,Participant should focus only on auditory stimuli,"(Selective-attention, Auditory-presentation)",ds002893,8.0.0
+1,Participant should focus only on visual stimuli.,"(Selective-attention, Visual-presentation)",ds002893,8.0.0
+2,An event presentation that should not have been made.,"Sensory-presentation, Mishap",ds002893,8.0.0
+3,Participant presses a button.,"Participant-response, (Experiment-participant, (Press, Mouse-button))",ds002893,8.0.0
+4,Presentation of a dark blue square.,"Sensory-presentation, Experimental-stimulus, Visual-presentation, (Square, DarkBlue, (Center-of, Computer-screen))",ds002893,8.0.0
+5,Auditory and visual presentation of a hear cue.,"Sensory-presentation, (Word, Label/Word-hear), Auditory-presentation, Visual-presentation",ds002893,8.0.0
+6,Presentation of a 550 Hz tone.,"Sensory-presentation, Experimental-stimulus, Auditory-presentation, (Tone, Frequency/550 Hz)",ds002893,8.0.0
+7,Presentation of a light blue square.,"Sensory-presentation, Experimental-stimulus, Visual-presentation, (Square, LightBlue, (Center-of, Computer-screen))",ds002893,8.0.0
+8,Auditory and visual presentation of a look cue.,"Sensory-presentation, (Word, Label/Word-look), Auditory-presentation, Visual-presentation",ds002893,8.0.0
+9,Presentation of a 500 Hz tone.,"Sensory-presentation, Experimental-stimulus, Auditory-presentation, (Tone, Frequency/500 Hz)",ds002893,8.0.0
+10,Pause the recording of the experiment.,"Experiment-control, Pause",ds002893,8.0.0
+11,Indicates that the stimulus should be attended to.,Attend-to,ds002893,8.0.0
+12,Indicates that the stimulus should be ignored.,Label/Ignore,ds002893,8.0.0
+13,Cue indicating participant should focus on auditory stimuli.,"(Cue, Instructional, Focused-attention, Auditory-presentation)",ds002893,8.0.0
+14,Cue indicating participant should focus on visual stimuli.,"(Cue, Instructional, Focused-attention, Visual-presentation)",ds002893,8.0.0
+15,Stimulus that is a non-target.,Non-target,ds002893,8.0.0
+16,Stimulus that is designated as the one to be looked for.,"Target, Oddball",ds002893,8.0.0
+17,A target in the attended to modality has been detected.,"(Detect, Target)",ds002893,8.0.0
+18,Experimental condition in which participant only pays attention to auditory stimuli.,"(Condition-variable/Auditory-focus, (Focused-attention, Auditory-presentation))",ds002893,8.0.0
+19,Experimental condition in which participant only pays attention to visual stimuli.,"(Condition-variable/Visual-focus, (Focused-attention, Visual-presentation))",ds002893,8.0.0
+20,Experimental condition in which participant shifts attention based on instructions.,"(Condition-variable/Shift-focus, (Switch-attention, Auditory-presentation, Visual-presentation))",ds002893,8.0.0
+0,target digit (3) shown,"(Target,Character/3),Experimental-stimulus,Sensory-event,Visual-presentation",ds004350,8.1.0
+1,participant response; correct if following non-target,"(Press,Keyboard-key/Spacebar),Agent-action,Experiment-participant,Participant-response",ds004350,8.1.0
+2,"non-target digit (1, 2, 4, 5, 6, 7, 8, 9) shown","(Non-target,Character),Experimental-stimulus,Sensory-event,Visual-presentation",ds004350,8.1.0
+0,Start of left perturbation,"(Def/Left-perturb, Onset)",ds004105,8.0.0
+1,End of left perturbation,"(Def/Left-perturb, Offset)",ds004105,8.0.0
+2,Start of right perturbation,"(Def/Right-perturb, Onset)",ds004105,8.0.0
+3,End of right perturbation,"(Def/Right-perturb, Offset)",ds004105,8.0.0
+4,Start of a left perturbation cued by a sound.,"(Def/Left-perturb, Onset), Def/Cue-sound",ds004105,8.0.0
+5,End of a left perturbation cued by a sound.,"(Def/Left-perturb, Offset)",ds004105,8.0.0
+6,Start of a right perturbation cued by a sound.,"(Def/Right-perturb, Onset), Def/Cue-sound",ds004105,8.0.0
+7,End of a right perturbation cued by a sound.,"(Def/Right-perturb, Onset)",ds004105,8.0.0
+8,Start driving car forward.,"(Def/Drive-vehicle, (Forward), Onset)",ds004105,8.0.0
+9,End driving car forward.,"(Def/Drive-vehicle, Offset)",ds004105,8.0.0
+10,Beginning of non-cue tone instance.,"(Def/Non-cue-sound, Onset)",ds004105,8.0.0
+11,Beginning of non-cue tone instance.,"(Def/Non-cue-sound, Offset)",ds004105,8.0.0
+12,Beginning of a cue tone instance.,"(Def/Cue-sound, Onset)",ds004105,8.0.0
+13,End of a cue tone instance.,"(Def/Cue-sound, Offset)",ds004105,8.0.0
+14,Start showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Onset)",ds004105,8.0.0
+15,End showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Offset)",ds004105,8.0.0
+16,Start of a trial,"(Def/Trial-marker, Onset)",ds004105,8.0.0
+17,End of a trial,"(Def/Trial-marker, Offset)",ds004105,8.0.0
+18,All at high-perturbation rate with low visual complexity.,"(Def/Tile-change,  (Condition-Variable/High-perturbation-rate, Condition-variable/Low-visual-complexity, Label/Tile0), Onset)",ds004105,8.0.0
+19,Scenario is a straight road," (Paved-terrain, Label/Straight_road)",ds004105,8.0.0
+20,Vehicle moves into the defined lane of travel from either the left or right side of the lane,"Agent-action, Experiment-participant, (Operate, (Vehicle, (Within, Lane)))",ds004105,8.0.0
+21,Vehicle moves right of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-right-of, Lane)))",ds004105,8.0.0
+22,Vehicle moves left of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-left-of, Lane)))",ds004105,8.0.0
+23,Driver starts correcting lane position.,"(Def/Course-correction, Onset)",ds004105,8.0.0
+24,Driver has completed the lane position correction.,"(Def/Course-correction, Offset)",ds004105,8.0.0
+25,Vehicle approached within 3 meters of obstacle resulting in near miss.,"Sensory-event, Visual-presentation, Near-miss, (Object, (Close-to, Vehicle))",ds004105,8.0.0
+26,Course correction has been detected because the vehicle has a heading error of more than 5.1566 degrees from the forward direction or the driver is steering away from the perturbation with a steering angle of more than 4 degrees.,"(Definition/Course-correction, (Agent-action, Experiment-participant, ((Operate, Label/Drive), (Vehicle, (Towards, Lane)))))",ds004105,8.0.0
+27,A sound which is meant to signal the start of a perturbation.,"(Definition/Cue-sound, (Sensory-event, Auditory-presentation, Sound, (Cue, (Away-from, (Center-of, Lane)))))",ds004105,8.0.0
+28,Drive car.,"(Definition/Drive-vehicle, (Agent-action, (Human-agent, Experiment-participant), ((Operate, Label/Drive), Car)))",ds004105,8.0.0
+29,A driving scenario with other cars or pedestrians in some configuration.,"(Definition/Driving-scenario/#, (Label/#, Environmental-property, Road, Outdoors))",ds004105,8.0.0
+30,Perturbation that moves the vehicle to the left via perpendicular force.,"(Definition/Left-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Left-side-of, Lane))))",ds004105,8.0.0
+31,A sound which is not meant to cue the start of a perturbation.,"(Definition/Non-cue-sound, (Sensory-event, Auditory-presentation, Sound, (Distractor, Non-informative, Random)))",ds004105,8.0.0
+32,Play a sound clip.,"(Definition/Play-sound-clip/#, (Auditory-presentation, Audio-clip, Label/#))",ds004105,8.0.0
+33,Participant presses a button,"(Definition/Press-button, (Agent-action, Participant-response, (Experiment-participant, (Press, Push-button))))",ds004105,8.0.0
+34,Perturbation that moves the vehicle to the right via perpendicular force.,"(Definition/Right-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Right-side-of, Lane))))",ds004105,8.0.0
+35,A mph road sign of specified speed.,"(Definition/Show-speed-sign/#, (Sensory-event, Visual-presentation, ((Navigational-object, Label/Road-sign), Speed/# mph)))",ds004105,8.0.0
+36,Data collection for a trial,"(Definition/Trial-marker, (Experiment-structure, Experimental-trial))",ds004105,8.0.0
+37,A change of experimental condition with a 2 by 2 design varying visual complexity and perturbation rate.,"(Definition/Tile-change, (Experiment-structure, (Environmental-property, Terrain), (Experimental-stimulus, Temporal-rate)))",ds004105,8.0.0
+0,Start of left perturbation,"(Def/Left-perturb, Onset)",ds004122,8.0.0
+1,End of left perturbation,"(Def/Left-perturb, Offset)",ds004122,8.0.0
+2,Start of right perturbation,"(Def/Right-perturb, Onset)",ds004122,8.0.0
+3,End of right perturbation,"(Def/Right-perturb, Offset)",ds004122,8.0.0
+4,Start driving car forward.,"(Def/Drive-vehicle, (Forward), Onset)",ds004122,8.0.0
+5,End driving car forward.,"(Def/Drive-vehicle, Offset)",ds004122,8.0.0
+6,Start showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Onset)",ds004122,8.0.0
+7,End showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Offset)",ds004122,8.0.0
+8,Start of a trial,"(Def/Trial-marker, Onset)",ds004122,8.0.0
+9,End of a trial,"(Def/Trial-marker, Offset)",ds004122,8.0.0
+10,All at high-perturbation rate with low visual complexity.,"(Def/Tile-change,  (Condition-Variable/High-perturbation-rate, Condition-variable/Low-visual-complexity, Label/Tile0), Onset)",ds004122,8.0.0
+11,Scenario is a straight road," (Paved-terrain, Label/Straight_road)",ds004122,8.0.0
+12,Vehicle moves into the defined lane of travel from either the left or right side of the lane,"Agent-action, Experiment-participant, (Operate, (Vehicle, (Within, Lane)))",ds004122,8.0.0
+13,Vehicle moves right of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-right-of, Lane)))",ds004122,8.0.0
+14,Vehicle moves left of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-left-of, Lane)))",ds004122,8.0.0
+15,Driver starts correcting lane position.,"(Def/Course-correction, Onset)",ds004122,8.0.0
+16,Driver has completed the lane position correction.,"(Def/Course-correction, Offset)",ds004122,8.0.0
+17,Vehicle approached within 3 meters of obstacle resulting in near miss.,"Sensory-event, Visual-presentation, Near-miss, (Object, (Close-to, Vehicle))",ds004122,8.0.0
+18,Vehicle collided with an environmental entity.,"Sensory-event, Visual-presentation, (Vehicle, (Collide-with, Object))",ds004122,8.0.0
+19,Course correction has been detected because the vehicle has a heading error of more than 5.1566 degrees from the forward direction or the driver is steering away from the perturbation with a steering angle of more than 4 degrees.,"(Definition/Course-correction, (Agent-action, Experiment-participant, ((Operate, Label/Drive), (Vehicle, (Towards, Lane)))))",ds004122,8.0.0
+20,Drive car.,"(Definition/Drive-vehicle, (Agent-action, (Human-agent, Experiment-participant), ((Operate, Label/Drive), Car)))",ds004122,8.0.0
+21,Perturbation that moves the vehicle to the left via perpendicular force.,"(Definition/Left-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Left-side-of, Lane))))",ds004122,8.0.0
+22,Perturbation that moves the vehicle to the right via perpendicular force.,"(Definition/Right-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Right-side-of, Lane))))",ds004122,8.0.0
+23,A mph road sign of specified speed.,"(Definition/Show-speed-sign/#, (Sensory-event, Visual-presentation, ((Navigational-object, Label/Road-sign), Speed/# mph)))",ds004122,8.0.0
+24,Data collection for a trial,"(Definition/Trial-marker, (Experiment-structure, Experimental-trial))",ds004122,8.0.0
+25,A change of experimental condition with a 2 by 2 design varying visual complexity and perturbation rate.,"(Definition/Tile-change, (Experiment-structure, (Environmental-property, Terrain), (Experimental-stimulus, Temporal-rate)))",ds004122,8.0.0
+0,Start of left perturbation,"(Def/Left-perturb, Onset)",ds004118,8.0.0
+1,End of left perturbation,"(Def/Left-perturb, Offset)",ds004118,8.0.0
+2,Start of right perturbation,"(Def/Right-perturb, Onset)",ds004118,8.0.0
+3,End of right perturbation,"(Def/Right-perturb, Offset)",ds004118,8.0.0
+4,Start driving car forward.,"(Def/Drive-vehicle, (Forward), Onset)",ds004118,8.0.0
+5,End driving car forward.,"(Def/Drive-vehicle, Offset)",ds004118,8.0.0
+6,Start showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Onset)",ds004118,8.0.0
+7,End showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Offset)",ds004118,8.0.0
+8,Start of a trial,"(Def/Trial-marker, Onset)",ds004118,8.0.0
+9,End of a trial,"(Def/Trial-marker, Offset)",ds004118,8.0.0
+10,All at high-perturbation rate with low visual complexity.,"(Def/Tile-change,  (Condition-Variable/High-perturbation-rate, Condition-variable/Low-visual-complexity, Label/Tile0), Onset)",ds004118,8.0.0
+11,Scenario is a straight road," (Paved-terrain, Label/Straight_road)",ds004118,8.0.0
+12,Lane position cannot be measured.,"Data-feature, Label/LanePositionNotMeasured, (Vehicle, Position, Invalid)",ds004118,8.0.0
+13,Vehicle moves into the defined lane of travel from either the left or right side of the lane,"Agent-action, Experiment-participant, (Operate, (Vehicle, (Within, Lane)))",ds004118,8.0.0
+14,Vehicle moves right of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-right-of, Lane)))",ds004118,8.0.0
+15,Vehicle moves left of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-left-of, Lane)))",ds004118,8.0.0
+16,Driver starts correcting lane position.,"(Def/Course-correction, Onset)",ds004118,8.0.0
+17,Driver has completed the lane position correction.,"(Def/Course-correction, Offset)",ds004118,8.0.0
+18,Start of an undefined button press.,"(Def/Press-button, (Indeterminate-action), Onset)",ds004118,8.0.0
+19,End of undefined button press.,"(Def/Press-button, Offset)",ds004118,8.0.0
+20,Course correction has been detected because the vehicle has a heading error of more than 5.1566 degrees from the forward direction or the driver is steering away from the perturbation with a steering angle of more than 4 degrees.,"(Definition/Course-correction, (Agent-action, Experiment-participant, ((Operate, Label/Drive), (Vehicle, (Towards, Lane)))))",ds004118,8.0.0
+21,A sound which is meant to signal the start of a perturbation.,"(Definition/Cue-sound, (Sensory-event, Auditory-presentation, Sound, (Cue, (Away-from, (Center-of, Lane)))))",ds004118,8.0.0
+22,Drive car.,"(Definition/Drive-vehicle, (Agent-action, (Human-agent, Experiment-participant), ((Operate, Label/Drive), Car)))",ds004118,8.0.0
+23,A driving scenario with other cars or pedestrians in some configuration.,"(Definition/Driving-scenario/#, (Label/#, Environmental-property, Road, Outdoors))",ds004118,8.0.0
+24,Perturbation that moves the vehicle to the left via perpendicular force.,"(Definition/Left-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Left-side-of, Lane))))",ds004118,8.0.0
+25,A sound which is not meant to cue the start of a perturbation.,"(Definition/Non-cue-sound, (Sensory-event, Auditory-presentation, Sound, (Distractor, Non-informative, Random)))",ds004118,8.0.0
+26,Play a sound clip.,"(Definition/Play-sound-clip/#, (Auditory-presentation, Audio-clip, Label/#))",ds004118,8.0.0
+27,Participant presses a button,"(Definition/Press-button, (Agent-action, Participant-response, (Experiment-participant, (Press, Push-button))))",ds004118,8.0.0
+28,Perturbation that moves the vehicle to the right via perpendicular force.,"(Definition/Right-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Right-side-of, Lane))))",ds004118,8.0.0
+29,A mph road sign of specified speed.,"(Definition/Show-speed-sign/#, (Sensory-event, Visual-presentation, ((Navigational-object, Label/Road-sign), Speed/# mph)))",ds004118,8.0.0
+30,Data collection for a trial,"(Definition/Trial-marker, (Experiment-structure, Experimental-trial))",ds004118,8.0.0
+31,A change of experimental condition with a 2 by 2 design varying visual complexity and perturbation rate.,"(Definition/Tile-change, (Experiment-structure, (Environmental-property, Terrain), (Experimental-stimulus, Temporal-rate)))",ds004118,8.0.0
+0,Start of left perturbation,"(Def/Left-perturb, Onset)",ds004121,8.0.0
+1,End of left perturbation,"(Def/Left-perturb, Offset)",ds004121,8.0.0
+2,Start of right perturbation,"(Def/Right-perturb, Onset)",ds004121,8.0.0
+3,End of right perturbation,"(Def/Right-perturb, Offset)",ds004121,8.0.0
+4,Start driving car forward.,"(Def/Drive-vehicle, (Forward), Onset)",ds004121,8.0.0
+5,End driving car forward.,"(Def/Drive-vehicle, Offset)",ds004121,8.0.0
+6,Beginning of sound clip relevant to task.,"(Def/Play-sound-clip/TaskRelated, (Related-to, Task), Onset)",ds004121,8.0.0
+7,End of a sound clip relevant to task.,"(Def/Play-sound-clip/TaskRelated, Offset)",ds004121,8.0.0
+8,Beginning of a sound clip unrelated to task.,"(Def/Play-sound-clip/TaskUnrelated, Onset)",ds004121,8.0.0
+9,End of a sound clip unrelated to task.,"(Def/Play-sound-clip/TaskUnrelated, Offset)",ds004121,8.0.0
+10,Beginning of sound clip on mindfulness breath counting exercise.,"(Def/Play-sound-clip/MindfulnessClip, (Instructional, (Related-to, Rest)), Onset)",ds004121,8.0.0
+11,End of sound clip on mindfulness breath counting exercise.,"(Def/Play-sound-clip/MindfulnessClip,  Offset)",ds004121,8.0.0
+12,Start oncoming traffic with up to 12 vehicles driving south.,"(Def/Driving-scenario/OncomingVehiclesPassing, ((Car, (Less-than, Item-count/13)), (Move, Towards, (Leftward, Lane))), Onset)",ds004121,8.0.0
+13,End oncoming traffic with up to 12 vehicles driving south.,"(Def/Driving-scenario/OncomingVehiclesPassing, Offset)",ds004121,8.0.0
+14,Start vehicle being overtaken from front with up to 3 vehicles that appear in front driving north in lefthand of northbound lanes.,"(Def/Driving-scenario/CarsInFront, ((Car, (Less-than, Item-count/4)), In-front-of), Onset)",ds004121,8.0.0
+15,End vehicle being overtaken from front with up to 3 vehicles that appear in front driving north in lefthand of northbound lanes.,"(Def/Driving-scenario/CarsInFront, Offset)",ds004121,8.0.0
+16,Start vehicle being overtaken from behind with up to 2 vehicles that appear behind the subject and drive past.,"(Def/Driving-scenario/CarsOvertakingFromBehind, ((Car, Item-count/2, Behind), (Move, In-front-of)), Onset)",ds004121,8.0.0
+17,End vehicle being overtaken from behind with up to 2 vehicles that appear behind the subject and drive past.,"(Def/Driving-scenario/CarsOvertakingFromBehind, Offset)",ds004121,8.0.0
+18,Start showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Onset)",ds004121,8.0.0
+19,End showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Offset)",ds004121,8.0.0
+20,Start showing a 35 MPH sign.,"(Def/Show-speed-sign/35, Onset)",ds004121,8.0.0
+21,End showing a 35 MPH sign.,"(Def/Show-speed-sign/35, Offset)",ds004121,8.0.0
+22,Start police car in driver line of sight.,"(Def/Driving-scenario/PoliceCarVisible, (Car, Target, Oddball), Onset)",ds004121,8.0.0
+23,End police car in driver line of sight.,"(Def/Driving-scenario/PoliceCarVisible, Offset)",ds004121,8.0.0
+24,Start of a trial,"(Def/Trial-marker, Onset)",ds004121,8.0.0
+25,End of a trial,"(Def/Trial-marker, Offset)",ds004121,8.0.0
+26,All at high-perturbation rate with low visual complexity.,"(Def/Tile-change,  (Condition-Variable/High-perturbation-rate, Condition-variable/Low-visual-complexity, Label/Tile0), Onset)",ds004121,8.0.0
+27,Scenario is a straight road," (Paved-terrain, Label/Straight_road)",ds004121,8.0.0
+28,Vehicle moves into the defined lane of travel from either the left or right side of the lane,"Agent-action, Experiment-participant, (Operate, (Vehicle, (Within, Lane)))",ds004121,8.0.0
+29,Vehicle moves right of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-right-of, Lane)))",ds004121,8.0.0
+30,Vehicle moves left of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-left-of, Lane)))",ds004121,8.0.0
+31,Driver starts correcting lane position.,"(Def/Course-correction, Onset)",ds004121,8.0.0
+32,Driver has completed the lane position correction.,"(Def/Course-correction, Offset)",ds004121,8.0.0
+33,Vehicle approached within 3 meters of obstacle resulting in near miss.,"Sensory-event, Visual-presentation, Near-miss, (Object, (Close-to, Vehicle))",ds004121,8.0.0
+34,Vehicle collided with an environmental entity.,"Sensory-event, Visual-presentation, (Vehicle, (Collide-with, Object))",ds004121,8.0.0
+35,Start of an undefined button press.,"(Def/Press-button, (Indeterminate-action), Onset)",ds004121,8.0.0
+36,End of undefined button press.,"(Def/Press-button, Offset)",ds004121,8.0.0
+37,Start of button press to acknowledge a police car.,"(Def/Press-button, (Detect, (Target, Label/Police-car)), Onset)",ds004121,8.0.0
+38,End of button press to acknowledge a police car.,"(Def/Press-button, Offset)",ds004121,8.0.0
+39,"A single police car was in view, and reported, then occluded, then in view again, and reported again. It’s not clear whether the subject knew it was the same target both times.","(Participant-response, Indeterminate-action)",ds004121,8.0.0
+40,Participant gives false alarm target response.,"(Participant-response, Incorrect-action)",ds004121,8.0.0
+41,Participant gives valid detection of target. ,"(Participant-response, Correct-action)",ds004121,8.0.0
+42,Participant gives repeated target detection response.,"(Participant-response, Repetitive, Inappropriate-action)",ds004121,8.0.0
+43,Course correction has been detected because the vehicle has a heading error of more than 5.1566 degrees from the forward direction or the driver is steering away from the perturbation with a steering angle of more than 4 degrees.,"(Definition/Course-correction, (Agent-action, Experiment-participant, ((Operate, Label/Drive), (Vehicle, (Towards, Lane)))))",ds004121,8.0.0
+44,A sound which is meant to signal the start of a perturbation.,"(Definition/Cue-sound, (Sensory-event, Auditory-presentation, Sound, (Cue, (Away-from, (Center-of, Lane)))))",ds004121,8.0.0
+45,Drive car.,"(Definition/Drive-vehicle, (Agent-action, (Human-agent, Experiment-participant), ((Operate, Label/Drive), Car)))",ds004121,8.0.0
+46,A driving scenario with other cars or pedestrians in some configuration.,"(Definition/Driving-scenario/#, (Label/#, Environmental-property, Road, Outdoors))",ds004121,8.0.0
+47,Perturbation that moves the vehicle to the left via perpendicular force.,"(Definition/Left-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Left-side-of, Lane))))",ds004121,8.0.0
+48,A sound which is not meant to cue the start of a perturbation.,"(Definition/Non-cue-sound, (Sensory-event, Auditory-presentation, Sound, (Distractor, Non-informative, Random)))",ds004121,8.0.0
+49,Play a sound clip.,"(Definition/Play-sound-clip/#, (Auditory-presentation, Audio-clip, Label/#))",ds004121,8.0.0
+50,Participant presses a button,"(Definition/Press-button, (Agent-action, Participant-response, (Experiment-participant, (Press, Push-button))))",ds004121,8.0.0
+51,Perturbation that moves the vehicle to the right via perpendicular force.,"(Definition/Right-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Right-side-of, Lane))))",ds004121,8.0.0
+52,A mph road sign of specified speed.,"(Definition/Show-speed-sign/#, (Sensory-event, Visual-presentation, ((Navigational-object, Label/Road-sign), Speed/# mph)))",ds004121,8.0.0
+53,Data collection for a trial,"(Definition/Trial-marker, (Experiment-structure, Experimental-trial))",ds004121,8.0.0
+54,A change of experimental condition with a 2 by 2 design varying visual complexity and perturbation rate.,"(Definition/Tile-change, (Experiment-structure, (Environmental-property, Terrain), (Experimental-stimulus, Temporal-rate)))",ds004121,8.0.0
+0,Start of left perturbation,"(Def/Left-perturb, Onset)",ds004120,8.0.0
+1,End of left perturbation,"(Def/Left-perturb, Offset)",ds004120,8.0.0
+2,Start of right perturbation,"(Def/Right-perturb, Onset)",ds004120,8.0.0
+3,End of right perturbation,"(Def/Right-perturb, Offset)",ds004120,8.0.0
+4,Start driving car forward.,"(Def/Drive-vehicle, (Forward), Onset)",ds004120,8.0.0
+5,End driving car forward.,"(Def/Drive-vehicle, Offset)",ds004120,8.0.0
+6,Start showing a 25 MPH sign.,"(Def/Show-speed-sign/25, Onset)",ds004120,8.0.0
+7,End showing a 25 MPH sign.,"(Def/Show-speed-sign/25, Offset)",ds004120,8.0.0
+8,Start showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Onset)",ds004120,8.0.0
+9,End showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Offset)",ds004120,8.0.0
+10,Start of a trial,"(Def/Trial-marker, Onset)",ds004120,8.0.0
+11,End of a trial,"(Def/Trial-marker, Offset)",ds004120,8.0.0
+12,All at high-perturbation rate with low visual complexity.,"(Def/Tile-change,  (Condition-Variable/High-perturbation-rate, Condition-variable/Low-visual-complexity, Label/Tile0), Onset)",ds004120,8.0.0
+13,Scenario is a straight road," (Paved-terrain, Label/Straight_road)",ds004120,8.0.0
+14,Lane position cannot be measured.,"Data-feature, Label/LanePositionNotMeasured, (Vehicle, Position, Invalid)",ds004120,8.0.0
+15,Vehicle moves into the defined lane of travel from either the left or right side of the lane,"Agent-action, Experiment-participant, (Operate, (Vehicle, (Within, Lane)))",ds004120,8.0.0
+16,Vehicle moves right of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-right-of, Lane)))",ds004120,8.0.0
+17,Vehicle moves left of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-left-of, Lane)))",ds004120,8.0.0
+18,Driver starts correcting lane position.,"(Def/Course-correction, Onset)",ds004120,8.0.0
+19,Driver has completed the lane position correction.,"(Def/Course-correction, Offset)",ds004120,8.0.0
+20,Vehicle approached within 3 meters of obstacle resulting in near miss.,"Sensory-event, Visual-presentation, Near-miss, (Object, (Close-to, Vehicle))",ds004120,8.0.0
+21,Vehicle collided with an environmental entity.,"Sensory-event, Visual-presentation, (Vehicle, (Collide-with, Object))",ds004120,8.0.0
+22,The Arduino data collection system starts failing.,"(Def/System-failure/Arduino, Onset)",ds004120,8.0.0
+23,The Arduino data collection system enda failing.,"(Def/System-failure/Arduino, Offset)",ds004120,8.0.0
+24,The EEG data collection system starts failing.,"(Def/System-failure/EEG, Onset)",ds004120,8.0.0
+25,The EEG data collection system ends failing.,"(Def/System-failure/EEG, Offset)",ds004120,8.0.0
+26,The eye tracking system starts failing.,"(Def/System-failure/Eye-tracking, Onset)",ds004120,8.0.0
+27,The eye tracking system ends failing.,"(Def/System-failure/Eye-tracking, Offset)",ds004120,8.0.0
+28,Course correction has been detected because the vehicle has a heading error of more than 5.1566 degrees from the forward direction or the driver is steering away from the perturbation with a steering angle of more than 4 degrees.,"(Definition/Course-correction, (Agent-action, Experiment-participant, ((Operate, Label/Drive), (Vehicle, (Towards, Lane)))))",ds004120,8.0.0
+29,Drive car.,"(Definition/Drive-vehicle, (Agent-action, (Human-agent, Experiment-participant), ((Operate, Label/Drive), Car)))",ds004120,8.0.0
+30,A driving scenario with other cars or pedestrians in some configuration.,"(Definition/Driving-scenario/#, (Label/#, Environmental-property, Road, Outdoors))",ds004120,8.0.0
+31,Perturbation that moves the vehicle to the left via perpendicular force.,"(Definition/Left-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Left-side-of, Lane))))",ds004120,8.0.0
+32,Perturbation that moves the vehicle to the right via perpendicular force.,"(Definition/Right-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Right-side-of, Lane))))",ds004120,8.0.0
+33,A mph road sign of specified speed.,"(Definition/Show-speed-sign/#, (Sensory-event, Visual-presentation, ((Navigational-object, Label/Road-sign), Speed/# mph)))",ds004120,8.0.0
+34,Data collection for a trial,"(Definition/Trial-marker, (Experiment-structure, Experimental-trial))",ds004120,8.0.0
+35,A change of experimental condition with a 2 by 2 design varying visual complexity and perturbation rate.,"(Definition/Tile-change, (Experiment-structure, (Environmental-property, Terrain), (Experimental-stimulus, Temporal-rate)))",ds004120,8.0.0
+36,A system failure causes data to be invalid,"(Definition/System-failure/#, (Experiment-control, Label/#, Mishap))",ds004120,8.0.0
+0,Start of basic guard duty scenario.,"(Def/Experiment/Basic-guard-scenario, Onset)",ds004119,8.0.0
+1,End of basic guard duty scenario.,"(Def/Experiment/Basic-guard-scenario, Offset)",ds004119,8.0.0
+2,Start block of images from Area C.,(Def/Environmental-area/Area-C Onset),ds004119,8.0.0
+3,Stop block of images from Area C.,"(Def/Environmental-area/Area-C, Offset)",ds004119,8.0.0
+4,Start showing of a valid image,"(Def/Show-image, (Valid), Onset)",ds004119,8.0.0
+5,End showing of a valid image,"(Def/Show-image, Offset)",ds004119,8.0.0
+6,Start showing image incorrect access level.,"(Def/Show-image, (Invalid, Label/No_access_to_level), Onset)",ds004119,8.0.0
+7,End showing image incorrect access level.,"(Def/Show-image, Offset)",ds004119,8.0.0
+8,Start showing image of expired ID,"(Def/Show-image, (Invalid, Label/Expired_ID), Onset)",ds004119,8.0.0
+9,End showing image of expired ID.,"(Def/Show-image, Offset)",ds004119,8.0.0
+10,Start showing image with photo ID mismatch.,"(Def/Show-image, (Invalid, Label/Photo_mismatch), Onset)",ds004119,8.0.0
+11,End showing image with photo ID mismatch.,"(Def/Show-image, Offset)",ds004119,8.0.0
+12,Start showing image with suspicious DOB.,"(Def/Show-image, (Invalid, Label/Suspicious_DOB), Onset)",ds004119,8.0.0
+13,End showing image with suspicious DOB.,"(Def/Show-image, Offset)",ds004119,8.0.0
+14,Start showing image with no watermark.,"(Def/Show-image, (Invalid, Label/No_watermark), Onset)",ds004119,8.0.0
+15,End showing image with no watermark.,"(Def/Show-image, Offset)",ds004119,8.0.0
+16,Button press allow access.,"Agent-action, Participant-response, (Press, Push-button), (Allow, Label/Area_access)",ds004119,8.0.0
+17,Button press deny access.,"Agent-action, Participant-response, (Press, Push-button), (Deny, Label/Area_access)",ds004119,8.0.0
+18,Start taking survey,"(Def/Take-survey, Onset)",ds004119,8.0.0
+19,End taking survey.,"(Def/Take-survey, Offset)",ds004119,8.0.0
+20,Start of EEG system failure.,"(Def/System-failure/EEG, Onset)",ds004119,8.0.0
+21,End of EEG system failure.,"(Def/System-failure/EEG, Offset)",ds004119,8.0.0
+22,Start of eye tracking system failure.,"(Def/System-failure/Eye-tracking, Onset)",ds004119,8.0.0
+23,End of eye tracking system failure.,"(Def/System-failure/Eye-tracking, Offset)",ds004119,8.0.0
+24,Experiment ,"(Definition/Experiment/#,  (Experiment-structure, Task, Label/#))",ds004119,8.0.0
+25,Checks should be for authorization to a specified area.,"(Definition/Environmental-area/#, (Experiment-structure,  Condition-variable/Environmental-area-cond, Label/#, Time-block))",ds004119,8.0.0
+26,Show an ID image.,"(Definition/Show-image, (Sensory-event, Visual-presentation, (Image, Label/ID-badge)))",ds004119,8.0.0
+27,Participant takes a survey,"(Definition/Take-survey, (Agent-action, (Experiment-participant, (Perform, (Label/Take-survey, Touchscreen)))))",ds004119,8.0.0
+28,A system failure causes data to be invalid,"(Definition/System-failure/#, (Experiment-control, Label/#, Mishap))",ds004119,8.0.0
+0,Particpant pushes the left button.,"Agent-action, Participant-response, (Press, (Push-button, (Left-side-of)))",ds004117,8.0.0
+1,Participant pushes the right button,"Agent-action, Participant-response, (Press, (Push-button, (Right-side-of)))",ds004117,8.0.0
+2,Display an image of a cross character on the screen.,"Sensory-event, Visual-presentation, (Cross, (Center-of, Computer-screen))",ds004117,8.0.0
+3,Display an image of a dash character on the screen.,"Sensory-event, Visual-presentation, (Dash, (Center-of, Computer-screen))",ds004117,8.0.0
+4,Display a letter on the screen.,"Sensory-event, Visual-presentation, (Character, (Center-of, Computer-screen))",ds004117,8.0.0
+5,Play a beep sound.,"Sensory-event, Auditory-presentation, Beep",ds004117,8.0.0
+6,Play a buzz sound,"Sensory-event, Auditory-presentation, Buzz",ds004117,8.0.0
+7,This event is part of a bad or incomplete trial. Some of the expected trial events are missing.,"(Invalid, Experimental-trial)",ds004117,8.0.0
+8,Feedback that the last participant response was correct.,"(Feedback, Correct-action)",ds004117,8.0.0
+9,Feedback that the last participant response was incorrect.,"(Feedback, Incorrect-action)",ds004117,8.0.0
+10,Indicates participant should fixate.,"(Task, Fixate)",ds004117,8.0.0
+11,The participant correctly indicated that the probe was not a target.,"((Recall, Non-target), Correct-action)",ds004117,8.0.0
+12,The participant indicated that the probe was not a target but the probe was a target.,"((Recall, Non-target), Incorrect-action)",ds004117,8.0.0
+13,The participant presses a button to indicate ready.,"(Appropriate-action, Label/Indicate-ready)",ds004117,8.0.0
+14,The probe letter was not shown in the trial.,"(Cue, Non-target)",ds004117,8.0.0
+15,The probe letter was a target to be remembered.,"(Cue, Target)",ds004117,8.0.0
+16,Participant correctly indicated that the probe was a target.,"((Recall, Target), Correct-action)",ds004117,8.0.0
+17,Participant indicated that the probe was a target but the probe was not a target.,"((Recall, Target), Incorrect-action)",ds004117,8.0.0
+18,This probe letter is not a target.,Non-target,ds004117,8.0.0
+19,This probe letter is a target.,Target,ds004117,8.0.0
+20,Cue to indicate that a probe letter is coming.,"(Cue, Recall)",ds004117,8.0.0
+0,Start of left perturbation,"(Def/Left-perturb, Onset)",ds004123,8.0.0
+1,End of left perturbation,"(Def/Left-perturb, Offset)",ds004123,8.0.0
+2,Start of right perturbation,"(Def/Right-perturb, Onset)",ds004123,8.0.0
+3,End of right perturbation,"(Def/Right-perturb, Offset)",ds004123,8.0.0
+4,Start driving car forward.,"(Def/Drive-vehicle, (Forward), Onset)",ds004123,8.0.0
+5,End driving car forward.,"(Def/Drive-vehicle, Offset)",ds004123,8.0.0
+6,Start oncoming traffic with up to 12 vehicles driving south.,"(Def/Driving-scenario/OncomingVehiclesPassing, ((Car, (Less-than, Item-count/13)), (Move, Towards, (Leftward, Lane))), Onset)",ds004123,8.0.0
+7,End oncoming traffic with up to 12 vehicles driving south.,"(Def/Driving-scenario/OncomingVehiclesPassing, Offset)",ds004123,8.0.0
+8,Start vehicle being overtaken from front with up to 3 vehicles that appear in front driving north in lefthand of northbound lanes.,"(Def/Driving-scenario/CarsInFront, ((Car, (Less-than, Item-count/4)), In-front-of), Onset)",ds004123,8.0.0
+9,End vehicle being overtaken from front with up to 3 vehicles that appear in front driving north in lefthand of northbound lanes.,"(Def/Driving-scenario/CarsInFront, Offset)",ds004123,8.0.0
+10,Start vehicle being overtaken from behind with up to 2 vehicles that appear behind the subject and drive past.,"(Def/Driving-scenario/CarsOvertakingFromBehind, ((Car, Item-count/2, Behind), (Move, In-front-of)), Onset)",ds004123,8.0.0
+11,End vehicle being overtaken from behind with up to 2 vehicles that appear behind the subject and drive past.,"(Def/Driving-scenario/CarsOvertakingFromBehind, Offset)",ds004123,8.0.0
+12,Start pedestrians oncoming on the opposite side of road. Up to 4 pedestrians walk north to south along the west side of the road.,"(Def/Driving-scenario/OncomingPedestriansOnFarSide, (((Human-agent, Walk), (Less-than, Item-count/5)), (Move, Towards, (Left-side-of, Road))), Onset)",ds004123,8.0.0
+13,End  pedestrians oncoming on the opposite side of road. Up to 4 pedestrians walk north to south along the west side of the road.,"(Def/Driving-scenario/OncomingPedestriansOnFarSide, Offset)",ds004123,8.0.0
+14,Start pedestrians passing on same side of road. Up to 4 pedestrians walk north to south along the east side of the road.,"(Def/Driving-scenario/OncomingPedestriansOnNearSide, (((Human-agent, Walk), (Less-than, Item-count/5)), (Move, Towards, (Right-side-of, Road))), Onset)",ds004123,8.0.0
+15,Start pedestrians passing on same side of road. Up to 4 pedestrians walk north to south along the east side of the road.,"(Def/Driving-scenario/OncomingPedestriansOnNearSide, Offset)",ds004123,8.0.0
+16,Start showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Onset)",ds004123,8.0.0
+17,End showing a 45 MPH sign.,"(Def/Show-speed-sign/45, Offset)",ds004123,8.0.0
+18,Start  construction zone. 24 barrels and cones blocking the lefthand of the northbound lanes. Always visible do not pop up.,"(Def/Driving-scenario/ConstructionZone, ((Navigational-object, Label/Lane-Blocking-object, Item-count/24)), Onset)",ds004123,8.0.0
+19,End  construction zone. 24 barrels and cones blocking the lefthand of the northbound lanes. Always visible do not pop up.,"(Def/Driving-scenario/ConstructionZone, Offset)",ds004123,8.0.0
+20,Start police car in driver line of sight.,"(Def/Driving-scenario/PoliceCarVisible, (Car, Target, Oddball), Onset)",ds004123,8.0.0
+21,End police car in driver line of sight.,"(Def/Driving-scenario/PoliceCarVisible, Offset)",ds004123,8.0.0
+22,Start of a trial,"(Def/Trial-marker, Onset)",ds004123,8.0.0
+23,End of a trial,"(Def/Trial-marker, Offset)",ds004123,8.0.0
+24,All at high-perturbation rate with low visual complexity.,"(Def/Tile-change,  (Condition-Variable/High-perturbation-rate, Condition-variable/Low-visual-complexity, Label/Tile0), Onset)",ds004123,8.0.0
+25,Tile complexity 1 high perturbation rate and high visual complexity.,"(Def/Tile-change,  (Condition-Variable/High-perturbation-rate, Condition-variable/High-visual-complexity, Label/Tile1), Onset)",ds004123,8.0.0
+26,Tile complexity 2 high perturbation rate and low visual complexity.,"(Def/Tile-change,  (Condition-Variable/High-perturbation-rate, Condition-variable/Low-visual-complexity, Label/Tile2), Onset)",ds004123,8.0.0
+27,Tile complexity 3 low perturbation rate and high visual complexity.,"(Def/Tile-change,  (Condition-Variable/High-perturbation-rate, Condition-variable/Low-visual-complexity, Label/Tile3), Onset)",ds004123,8.0.0
+28,Tile complexity 4 low perturbation rate and high low complexity.,"(Def/Tile-change,  (Condition-Variable/Low-perturbation-rate, Condition-variable/High-visual-complexity, Label/Tile4), Onset)",ds004123,8.0.0
+29,Scenario is a straight road," (Paved-terrain, Label/Straight_road)",ds004123,8.0.0
+30,Vehicle moves into the defined lane of travel from either the left or right side of the lane,"Agent-action, Experiment-participant, (Operate, (Vehicle, (Within, Lane)))",ds004123,8.0.0
+31,Vehicle moves right of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-right-of, Lane)))",ds004123,8.0.0
+32,Vehicle moves left of the defined lane of travel,"Agent-action, Experiment-participant, (Operate, (Vehicle, (To-left-of, Lane)))",ds004123,8.0.0
+33,Driver starts correcting lane position.,"(Def/Course-correction, Onset)",ds004123,8.0.0
+34,Driver has completed the lane position correction.,"(Def/Course-correction, Offset)",ds004123,8.0.0
+35,Vehicle approached within 3 meters of obstacle resulting in near miss.,"Sensory-event, Visual-presentation, Near-miss, (Object, (Close-to, Vehicle))",ds004123,8.0.0
+36,Vehicle collided with an environmental entity.,"Sensory-event, Visual-presentation, (Vehicle, (Collide-with, Object))",ds004123,8.0.0
+37,Course correction has been detected because the vehicle has a heading error of more than 5.1566 degrees from the forward direction or the driver is steering away from the perturbation with a steering angle of more than 4 degrees.,"(Definition/Course-correction, (Agent-action, Experiment-participant, ((Operate, Label/Drive), (Vehicle, (Towards, Lane)))))",ds004123,8.0.0
+38,A sound which is meant to signal the start of a perturbation.,"(Definition/Cue-sound, (Sensory-event, Auditory-presentation, Sound, (Cue, (Away-from, (Center-of, Lane)))))",ds004123,8.0.0
+39,Drive car.,"(Definition/Drive-vehicle, (Agent-action, (Human-agent, Experiment-participant), ((Operate, Label/Drive), Car)))",ds004123,8.0.0
+40,A driving scenario with other cars or pedestrians in some configuration.,"(Definition/Driving-scenario/#, (Label/#, Environmental-property, Road, Outdoors))",ds004123,8.0.0
+41,Perturbation that moves the vehicle to the left via perpendicular force.,"(Definition/Left-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Left-side-of, Lane))))",ds004123,8.0.0
+42,A sound which is not meant to cue the start of a perturbation.,"(Definition/Non-cue-sound, (Sensory-event, Auditory-presentation, Sound, (Distractor, Non-informative, Random)))",ds004123,8.0.0
+43,Play a sound clip.,"(Definition/Play-sound-clip/#, (Auditory-presentation, Audio-clip, Label/#))",ds004123,8.0.0
+44,Participant presses a button,"(Definition/Press-button, (Agent-action, Participant-response, (Experiment-participant, (Press, Push-button))))",ds004123,8.0.0
+45,Perturbation that moves the vehicle to the right via perpendicular force.,"(Definition/Right-perturb, (Experiment-control, Sensory-event, Controller-agent, ((Push, (Car)), (Right-side-of, Lane))))",ds004123,8.0.0
+46,A mph road sign of specified speed.,"(Definition/Show-speed-sign/#, (Sensory-event, Visual-presentation, ((Navigational-object, Label/Road-sign), Speed/# mph)))",ds004123,8.0.0
+47,Data collection for a trial,"(Definition/Trial-marker, (Experiment-structure, Experimental-trial))",ds004123,8.0.0
+48,A change of experimental condition with a 2 by 2 design varying visual complexity and perturbation rate.,"(Definition/Tile-change, (Experiment-structure, (Environmental-property, Terrain), (Experimental-stimulus, Temporal-rate)))",ds004123,8.0.0
+49,A system failure causes data to be invalid,"(Definition/System-failure/#, (Experiment-control, Label/#, Mishap))",ds004123,8.0.0
+0,Display a face to mark end of pre-stimulus and start of blink-inhibition.,"Sensory-event, Experimental-stimulus, (Def/Face-image, Onset), (Def/Blink-inhibition-task,Onset),(Def/Cross-only, Offset)",ds003645,8.0.0
+1,Display a face at the beginning of the recording.,"Sensory-event, Experimental-stimulus, (Def/Face-image, Onset), (Def/Blink-inhibition-task,Onset), (Def/Fixation-task, Onset)",ds003645,8.0.0
+2,Display a white circle to mark end of the stimulus and blink inhibition.,"Sensory-event, (Intended-effect, Cue), (Def/Circle-only, Onset), (Def/Face-image, Offset), (Def/Blink-inhibition-task, Offset), (Def/Fixation-task, Offset)",ds003645,8.0.0
+3,Display only a white cross to mark start of trial and fixation.,"Sensory-event, (Intended-effect, Cue), (Def/Cross-only, Onset), (Def/Fixation-task, Onset),  (Def/Circle-only, Offset)",ds003645,8.0.0
+4,Experiment participant presses a key with left index finger.,"Agent-action, Participant-response, Def/Press-left-finger",ds003645,8.0.0
+5,Experiment participant presses a key with right index finger.,"Agent-action, Participant-response, Def/Press-right-finger",ds003645,8.0.0
+6,Setup for experiment with pressing key with left index finger means a face with above average symmetry.,"Experiment-structure, (Def/Left-sym-cond, Onset), (Def/Initialize-recording, Onset)",ds003645,8.0.0
+7,Setup for experiment with pressing key with right index finger means a face with above average symmetry.,"Experiment-structure, (Def/Right-sym-cond, Onset), (Def/Initialize-recording, Onset)",ds003645,8.0.0
+8,Experiment participant presses both keys .,"Agent-action, Indeterminate-action, (Press, Keyboard-key)",ds003645,8.0.0
+9,A face that should be recognized by the participants.,Def/Famous-face-cond,ds003645,8.0.0
+10,A face that should not be recognized by the participants.,Def/Unfamiliar-face-cond,ds003645,8.0.0
+11,A scrambled face image generated by taking face 2D FFT.,Def/Scrambled-face-cond,ds003645,8.0.0
+12,Factor level indicating the first display of this face.,Def/First-show-cond,ds003645,8.0.0
+13,Factor level indicating this face was the same as previous one.,Def/Immediate-repeat-cond,ds003645,8.0.0
+14,Factor level indicating face was seen 5 to 15 trials ago.,Def/Delayed-repeat-cond,ds003645,8.0.0
+0,Response of the subject,"Participant-response, (Keyboard-key, Press), Agent-action",ds003061,8.0.0
+1,Standard at 500 hz for 60 ms,"Auditory-presentation, Sensory-event, Pitch/500Hz, Correct, Non-target, (Not-equal-to, Go-signal), Expected",ds003061,8.0.0
+2,Ignore - not a real event,Description/Event Irrelevant for Experiment,ds003061,8.0.0
+3,Oddball at 1000 hz for 60 ms,"Auditory-presentation, Sensory-event, Pitch/1000Hz, Wrong, Target, Oddball, Expected, Go-signal",ds003061,8.0.0
+4,White noise for 60 ms,"Auditory-presentation, Sensory-event, Correct, Non-target, Signal-noise, Unexpected, (Not-equal-to, Go-signal), Distractor",ds003061,8.0.0
+5,"White noise for 60 ms, followed by response (incorrect distractor)","Auditory-presentation, Sensory-event, Wrong, Non-target, Signal-noise, Unexpected, (Not-equal-to, Go-signal), Distractor, Participant-response",ds003061,8.0.0
+6,"Oddball at 1000 hz for 60 ms, followed by response (correct target)","Auditory-presentation, Sensory-event, Pitch/1000Hz, Correct, Target, Oddball, Expected, Go-signal, Participant-response",ds003061,8.0.0
+7,"Standard at 500 hz for 60 ms, followed by response (incorrect)","Auditory-presentation, Sensory-event, Pitch/500Hz, Wrong, Non-target, (Not-equal-to, Go-signal), Participant-response, Expected",ds003061,8.0.0
+0,Start advanced guard duty scenario.,"(Def/Experiment/Advanced-guard-scenario, Onset)",ds004106,8.0.0
+1,End advanced guard duty scenario.,"(Def/Experiment/Advanced-guard-scenario, Offset)",ds004106,8.0.0
+2,Start block of images from Area A.,"(Def/Environmental-area/Area-A, Onset)",ds004106,8.0.0
+3,Stop block of images from Area A.,"(Def/Environmental-area/Area-A, Offset)",ds004106,8.0.0
+4,Start block of images from Area B.,"(Def/Environmental-area/Area-B, Onset)",ds004106,8.0.0
+5,Stop block of images from Area B.,"(Def/Environmental-area/Area-B, Offset)",ds004106,8.0.0
+6,Start block of images from Area C.,(Def/Environmental-area/Area-C Onset),ds004106,8.0.0
+7,Stop block of images from Area C.,"(Def/Environmental-area/Area-C, Offset)",ds004106,8.0.0
+8,Start block of images from Area D.,"(Def/Environmental-area/Area-D, Onset)",ds004106,8.0.0
+9,Stop block of images from Area D.,"(Def/Environmental-area/Area-D, Offset)",ds004106,8.0.0
+10,Start block of images from Area E.,"(Def/Environmental-area/Area-E, Onset)",ds004106,8.0.0
+11,Stop block of images from Area E.,"(Def/Environmental-area/Area-E, Offset)",ds004106,8.0.0
+12,Start showing of a valid image,"(Def/Show-image, (Valid), Onset)",ds004106,8.0.0
+13,End showing of a valid image,"(Def/Show-image, Offset)",ds004106,8.0.0
+14,Start showing image incorrect access level.,"(Def/Show-image, (Invalid, Label/No_access_to_level), Onset)",ds004106,8.0.0
+15,End showing image incorrect access level.,"(Def/Show-image, Offset)",ds004106,8.0.0
+16,Start showing image of expired ID,"(Def/Show-image, (Invalid, Label/Expired_ID), Onset)",ds004106,8.0.0
+17,End showing image of expired ID.,"(Def/Show-image, Offset)",ds004106,8.0.0
+18,Start showing image with photo ID mismatch.,"(Def/Show-image, (Invalid, Label/Photo_mismatch), Onset)",ds004106,8.0.0
+19,End showing image with photo ID mismatch.,"(Def/Show-image, Offset)",ds004106,8.0.0
+20,Start showing image with suspicious DOB.,"(Def/Show-image, (Invalid, Label/Suspicious_DOB), Onset)",ds004106,8.0.0
+21,End showing image with suspicious DOB.,"(Def/Show-image, Offset)",ds004106,8.0.0
+22,Start showing image with no watermark.,"(Def/Show-image, (Invalid, Label/No_watermark), Onset)",ds004106,8.0.0
+23,End showing image with no watermark.,"(Def/Show-image, Offset)",ds004106,8.0.0
+24,Button press allow access.,"Agent-action, Participant-response, (Press, Push-button), (Allow, Label/Area_access)",ds004106,8.0.0
+25,Button press deny access.,"Agent-action, Participant-response, (Press, Push-button), (Deny, Label/Area_access)",ds004106,8.0.0
+26,Start taking survey,"(Def/Take-survey, Onset)",ds004106,8.0.0
+27,End taking survey.,"(Def/Take-survey, Offset)",ds004106,8.0.0
+28,Start of EEG system failure.,"(Def/System-failure/EEG, Onset)",ds004106,8.0.0
+29,End of EEG system failure.,"(Def/System-failure/EEG, Offset)",ds004106,8.0.0
+30,Start of eye tracking system failure.,"(Def/System-failure/Eye-tracking, Onset)",ds004106,8.0.0
+31,End of eye tracking system failure.,"(Def/System-failure/Eye-tracking, Offset)",ds004106,8.0.0
+32,Experiment ,"(Definition/Experiment/#,  (Experiment-structure, Task, Label/#))",ds004106,8.0.0
+33,Checks should be for authorization to a specified area.,"(Definition/Environmental-area/#, (Experiment-structure,  Condition-variable/Environmental-area-cond, Label/#, Time-block))",ds004106,8.0.0
+34,Show an ID image.,"(Definition/Show-image, (Sensory-event, Visual-presentation, (Image, Label/ID-badge)))",ds004106,8.0.0
+35,Participant takes a survey,"(Definition/Take-survey, (Agent-action, (Experiment-participant, (Perform, (Label/Take-survey, Touchscreen)))))",ds004106,8.0.0
+36,A system failure causes data to be invalid,"(Definition/System-failure/#, (Experiment-control, Label/#, Mishap))",ds004106,8.0.0
