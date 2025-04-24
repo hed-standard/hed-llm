@@ -43,7 +43,7 @@ google-auth==2.36.0
 googleapis-common-protos==1.66.0
 gritql==0.1.5
 grpcio==1.68.0
-h11==0.14.0
+h11==0.16.0
 hedtools==0.5.0
 httpcore==1.0.7
 httptools==0.6.4
