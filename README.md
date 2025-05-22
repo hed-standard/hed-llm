@@ -30,7 +30,7 @@ chainlit run --port 55000 app.py -w
 ## Codebase Overview
 - The main project is organized under `hed-bot/`, with subfolders for each bot:
   - `hed-tagging-bot`: Translates event descriptions to HED annotations and validates them.
-  - `hed-doc-bot`, `hed-rag-tagging-bot`, `hed-repo-bot`, `hed-vocab-bot`: Other specialized bots, each with a similar structure.
+  - `hed-doc-bot`, `hed-rag-tagging-bot`: Other specialized bots, each with a similar structure.
 - Each bot contains:
   - `app.py`: Main application logic, including Chainlit event handlers and LLM agent setup.
   - `.chainlit/`: Chainlit configuration (e.g., `config.toml` for UI and feature settings).
