@@ -6,3 +6,4 @@ langchain-openai
 langchain-chroma
 langchain_community
 beautifulsoup4
+git+https://github.com/hed-standard/hed-python.git
